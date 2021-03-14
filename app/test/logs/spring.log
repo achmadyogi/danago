@@ -1,0 +1,64 @@
+2021-02-25 07:09:23.713  INFO 49728 --- [main] c.a.s.t.u.JsonSampleControllerTest       : Starting JsonSampleControllerTest on DNID0683L01.local with PID 49728 (started by prakosoa in /Users/prakosoa/Documents/DANALearning/SOFABOOT/sample/sofa-boot-guides/sofaboot-sample-standard/app/test)
+2021-02-25 07:09:23.713  INFO 49728 --- [main] c.a.s.t.u.JsonSampleControllerTest       : No active profile set, falling back to default profiles: default
+2021-02-25 07:09:25.171  INFO 49728 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2021-02-25 07:09:25.212  INFO 49728 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-25 07:09:25.213  INFO 49728 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-02-25 07:09:25.322  INFO 49728 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-25 07:09:25.323  INFO 49728 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1589 ms
+2021-02-25 07:09:26.488  INFO 49728 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-25 07:09:26.816  INFO 49728 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2021-02-25 07:09:27.519  INFO 49728 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 64540 (http) with context path ''
+2021-02-25 07:09:27.521  INFO 49728 --- [main] c.a.s.t.u.JsonSampleControllerTest       : Started JsonSampleControllerTest in 4.179 seconds (JVM running for 4.747)
+2021-02-25 07:09:27.814  INFO 49728 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-25 07:09:27.814  INFO 49728 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-25 07:09:27.834  INFO 49728 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 20 ms
+2021-02-25 07:09:27.895  INFO 49728 --- [main] ROOT                                     : Yes, its me!
+2021-02-25 07:09:27.940  INFO 49728 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-25 07:10:11.613  INFO 49751 --- [main] c.a.s.t.u.JsonSampleControllerTest       : Starting JsonSampleControllerTest on DNID0683L01.local with PID 49751 (started by prakosoa in /Users/prakosoa/Documents/DANALearning/SOFABOOT/sample/sofa-boot-guides/sofaboot-sample-standard/app/test)
+2021-02-25 07:10:11.614  INFO 49751 --- [main] c.a.s.t.u.JsonSampleControllerTest       : No active profile set, falling back to default profiles: default
+2021-02-25 07:10:13.395  INFO 49751 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2021-02-25 07:10:13.428  INFO 49751 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-25 07:10:13.428  INFO 49751 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-02-25 07:10:13.603  INFO 49751 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-25 07:10:13.604  INFO 49751 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1972 ms
+2021-02-25 07:10:14.759  INFO 49751 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-25 07:10:15.153  INFO 49751 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2021-02-25 07:10:16.222  INFO 49751 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 64558 (http) with context path ''
+2021-02-25 07:10:16.225  INFO 49751 --- [main] c.a.s.t.u.JsonSampleControllerTest       : Started JsonSampleControllerTest in 5.205 seconds (JVM running for 6.052)
+2021-02-25 07:10:16.682  INFO 49751 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-25 07:10:16.682  INFO 49751 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-25 07:10:16.705  INFO 49751 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 23 ms
+2021-02-25 07:10:16.787  INFO 49751 --- [main] ROOT                                     : Yes, its me!
+2021-02-25 07:10:16.801  INFO 49751 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-25 07:10:39.499  INFO 49761 --- [main] c.a.s.t.u.JsonSampleControllerTest       : Starting JsonSampleControllerTest on DNID0683L01.local with PID 49761 (started by prakosoa in /Users/prakosoa/Documents/DANALearning/SOFABOOT/sample/sofa-boot-guides/sofaboot-sample-standard/app/test)
+2021-02-25 07:10:39.500  INFO 49761 --- [main] c.a.s.t.u.JsonSampleControllerTest       : No active profile set, falling back to default profiles: default
+2021-02-25 07:10:41.186  INFO 49761 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2021-02-25 07:10:41.216  INFO 49761 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-25 07:10:41.216  INFO 49761 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-02-25 07:10:41.361  INFO 49761 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-25 07:10:41.361  INFO 49761 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1842 ms
+2021-02-25 07:10:42.335  INFO 49761 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-25 07:10:42.664  INFO 49761 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2021-02-25 07:10:43.308  INFO 49761 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 64568 (http) with context path ''
+2021-02-25 07:10:43.310  INFO 49761 --- [main] c.a.s.t.u.JsonSampleControllerTest       : Started JsonSampleControllerTest in 4.279 seconds (JVM running for 4.99)
+2021-02-25 07:10:43.658  INFO 49761 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-25 07:10:43.658  INFO 49761 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-25 07:10:43.680  INFO 49761 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 21 ms
+2021-02-25 07:10:43.738  INFO 49761 --- [main] ROOT                                     : Yes, its me!
+2021-02-25 07:10:43.746  INFO 49761 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-25 07:10:56.421  INFO 49806 --- [main] c.a.s.t.u.JsonSampleControllerTest       : Starting JsonSampleControllerTest on DNID0683L01.local with PID 49806 (started by prakosoa in /Users/prakosoa/Documents/DANALearning/SOFABOOT/sample/sofa-boot-guides/sofaboot-sample-standard/app/test)
+2021-02-25 07:10:56.422  INFO 49806 --- [main] c.a.s.t.u.JsonSampleControllerTest       : No active profile set, falling back to default profiles: default
+2021-02-25 07:10:58.129  INFO 49806 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2021-02-25 07:10:58.176  INFO 49806 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-25 07:10:58.177  INFO 49806 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-02-25 07:10:58.290  INFO 49806 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-25 07:10:58.290  INFO 49806 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1848 ms
+2021-02-25 07:10:59.262  INFO 49806 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-25 07:10:59.580  INFO 49806 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2021-02-25 07:11:00.279  INFO 49806 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 64575 (http) with context path ''
+2021-02-25 07:11:00.281  INFO 49806 --- [main] c.a.s.t.u.JsonSampleControllerTest       : Started JsonSampleControllerTest in 4.269 seconds (JVM running for 4.91)
+2021-02-25 07:11:00.502  INFO 49806 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-25 07:11:00.502  INFO 49806 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-25 07:11:00.518  INFO 49806 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2021-02-25 07:11:00.574  INFO 49806 --- [main] ROOT                                     : Yes, its me!
+2021-02-25 07:11:00.608  INFO 49806 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

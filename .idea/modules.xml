@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/biz/service-impl/go-biz-service-impl.iml" filepath="$PROJECT_DIR$/app/biz/service-impl/go-biz-service-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/biz/shared/go-biz-shared.iml" filepath="$PROJECT_DIR$/app/biz/shared/go-biz-shared.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/common/dal/go-common-dal.iml" filepath="$PROJECT_DIR$/app/common/dal/go-common-dal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/common/service/facade/go-common-service-facade.iml" filepath="$PROJECT_DIR$/app/common/service/facade/go-common-service-facade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/go-parent.iml" filepath="$PROJECT_DIR$/go-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/test/go-test.iml" filepath="$PROJECT_DIR$/app/test/go-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/web/go-web.iml" filepath="$PROJECT_DIR$/app/web/go-web.iml" />
+    </modules>
+  </component>
+</project>

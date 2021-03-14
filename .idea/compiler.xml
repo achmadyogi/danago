@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="go-biz-shared" />
+        <module name="go-web" />
+        <module name="go-test" />
+        <module name="go-common-dal" />
+        <module name="go-biz-service-impl" />
+        <module name="go-common-service-facade" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="go-biz-service-impl" target="6" />
+      <module name="go-biz-shared" target="1.7" />
+      <module name="go-common-dal" target="1.7" />
+      <module name="go-common-service-facade" target="1.7" />
+      <module name="go-parent" target="1.7" />
+      <module name="go-test" target="1.7" />
+      <module name="go-web" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="go-biz-service-impl" options="-parameters" />
+      <module name="go-biz-shared" options="-parameters" />
+      <module name="go-common-dal" options="-parameters" />
+      <module name="go-common-service-facade" options="-parameters" />
+      <module name="go-test" options="-parameters" />
+      <module name="go-web" options="-parameters" />
+    </option>
+  </component>
+</project>

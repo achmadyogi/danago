@@ -1,0 +1,36 @@
+2021-02-25 07:03:25,676 INFO  main  - Thread pool 'sofa-boot-sofa-module-start' started with period: 30 SECONDS
+2021-02-25 07:03:25,677 INFO  main  - Thread pool with name 'sofa-boot-sofa-module-start' registered
+2021-02-25 07:03:26,064 INFO  sofa-module-start-1-thread-3 - Thread pool 'sofa-boot-sofa-module-start' stopped.
+2021-02-25 07:03:26,064 INFO  sofa-module-start-1-thread-3 - Thread pool with name 'sofa-boot-sofa-module-start' unregistered
+2021-02-25 07:04:40,335 INFO  main  - Thread pool 'sofa-boot-sofa-module-start' started with period: 30 SECONDS
+2021-02-25 07:04:40,336 INFO  main  - Thread pool with name 'sofa-boot-sofa-module-start' registered
+2021-02-25 07:04:40,801 INFO  sofa-module-start-1-thread-3 - Thread pool 'sofa-boot-sofa-module-start' stopped.
+2021-02-25 07:04:40,802 INFO  sofa-module-start-1-thread-3 - Thread pool with name 'sofa-boot-sofa-module-start' unregistered
+2021-02-25 07:05:02,314 INFO  main  - Thread pool 'sofa-boot-sofa-module-start' started with period: 30 SECONDS
+2021-02-25 07:05:02,314 INFO  main  - Thread pool with name 'sofa-boot-sofa-module-start' registered
+2021-02-25 07:05:02,772 INFO  sofa-module-start-1-thread-3 - Thread pool 'sofa-boot-sofa-module-start' stopped.
+2021-02-25 07:05:02,772 INFO  sofa-module-start-1-thread-3 - Thread pool with name 'sofa-boot-sofa-module-start' unregistered
+2021-02-25 07:06:39,574 INFO  main  - Thread pool 'sofa-boot-sofa-module-start' started with period: 30 SECONDS
+2021-02-25 07:06:39,574 INFO  main  - Thread pool with name 'sofa-boot-sofa-module-start' registered
+2021-02-25 07:06:39,918 INFO  sofa-module-start-1-thread-2 - Thread pool 'sofa-boot-sofa-module-start' stopped.
+2021-02-25 07:06:39,918 INFO  sofa-module-start-1-thread-2 - Thread pool with name 'sofa-boot-sofa-module-start' unregistered
+2021-02-25 07:07:27,452 INFO  main  - Thread pool 'sofa-boot-sofa-module-start' started with period: 30 SECONDS
+2021-02-25 07:07:27,453 INFO  main  - Thread pool with name 'sofa-boot-sofa-module-start' registered
+2021-02-25 07:07:27,949 INFO  sofa-module-start-1-thread-1 - Thread pool 'sofa-boot-sofa-module-start' stopped.
+2021-02-25 07:07:27,949 INFO  sofa-module-start-1-thread-1 - Thread pool with name 'sofa-boot-sofa-module-start' unregistered
+2021-02-25 13:46:48,055 INFO  main  - Thread pool 'sofa-boot-sofa-module-start' started with period: 30 SECONDS
+2021-02-25 13:46:48,058 INFO  main  - Thread pool with name 'sofa-boot-sofa-module-start' registered
+2021-02-25 13:46:48,339 INFO  sofa-module-start-1-thread-3 - Thread pool 'sofa-boot-sofa-module-start' stopped.
+2021-02-25 13:46:48,340 INFO  sofa-module-start-1-thread-3 - Thread pool with name 'sofa-boot-sofa-module-start' unregistered
+2021-02-25 18:38:13,346 INFO  main  - Thread pool 'sofa-boot-sofa-module-start' started with period: 30 SECONDS
+2021-02-25 18:38:13,347 INFO  main  - Thread pool with name 'sofa-boot-sofa-module-start' registered
+2021-02-25 18:38:13,628 INFO  sofa-module-start-1-thread-1 - Thread pool 'sofa-boot-sofa-module-start' stopped.
+2021-02-25 18:38:13,629 INFO  sofa-module-start-1-thread-1 - Thread pool with name 'sofa-boot-sofa-module-start' unregistered
+2021-02-25 18:40:46,050 INFO  main  - Thread pool 'sofa-boot-sofa-module-start' started with period: 30 SECONDS
+2021-02-25 18:40:46,050 INFO  main  - Thread pool with name 'sofa-boot-sofa-module-start' registered
+2021-02-25 18:40:46,341 INFO  sofa-module-start-1-thread-1 - Thread pool 'sofa-boot-sofa-module-start' stopped.
+2021-02-25 18:40:46,342 INFO  sofa-module-start-1-thread-1 - Thread pool with name 'sofa-boot-sofa-module-start' unregistered
+2021-02-25 19:03:03,699 INFO  main  - Thread pool 'sofa-boot-sofa-module-start' started with period: 30 SECONDS
+2021-02-25 19:03:03,699 INFO  main  - Thread pool with name 'sofa-boot-sofa-module-start' registered
+2021-02-25 19:03:03,953 INFO  sofa-module-start-1-thread-1 - Thread pool 'sofa-boot-sofa-module-start' stopped.
+2021-02-25 19:03:03,954 INFO  sofa-module-start-1-thread-1 - Thread pool with name 'sofa-boot-sofa-module-start' unregistered

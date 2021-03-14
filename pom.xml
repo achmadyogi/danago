@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.alipay.sofa</groupId>
+        <artifactId>sofaboot-dependencies</artifactId>
+        <version>3.6.0</version>
+        <relativePath/>
+    </parent>
+
+    <groupId>com.manda.go</groupId>
+    <artifactId>go-parent</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>app/biz/service-impl</module>
+        <module>app/common/service/facade</module>
+        <module>app/common/dal</module>
+        <module>app/test</module>
+        <module>app/web</module>
+        <module>app/biz/shared</module>
+    </modules>
+
+    <properties>
+        <classifier.name>app-id</classifier.name>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.manda.go</groupId>
+                <artifactId>go-biz-shared</artifactId>
+                <version>${project.version}</version>
+                <classifier>${classifier.name}</classifier>
+            </dependency>
+            <dependency>
+                <groupId>com.manda.go</groupId>
+                <artifactId>go-common-service-facade</artifactId>
+                <version>${project.version}</version>
+                <classifier>${classifier.name}</classifier>
+            </dependency>
+            <dependency>
+                <groupId>com.manda.go</groupId>
+                <artifactId>go-biz-service-impl</artifactId>
+                <version>${project.version}</version>
+                <classifier>${classifier.name}</classifier>
+            </dependency>
+            <dependency>
+                <groupId>com.manda.go</groupId>
+                <artifactId>go-common-dal</artifactId>
+                <version>${project.version}</version>
+                <classifier>${classifier.name}</classifier>
+            </dependency>
+            <dependency>
+                <groupId>com.manda.go</groupId>
+                <artifactId>go-web</artifactId>
+                <version>${project.version}</version>
+                <classifier>${classifier.name}</classifier>
+            </dependency>
+            <dependency>
+                <groupId>com.manda.go</groupId>
+                <artifactId>go-test</artifactId>
+                <version>${project.version}</version>
+                <classifier>${classifier.name}</classifier>
+                <scope>test</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>

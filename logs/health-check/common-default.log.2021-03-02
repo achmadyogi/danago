@@ -1,0 +1,13 @@
+2021-03-02 18:31:44,092 INFO  main                             - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2021-03-02 18:31:44,094 INFO  main                             - Found 4 HealthIndicator implementation:sofaModuleHealthIndicator,sofaBootHealthIndicator,multiApplicationHealthIndicator,diskSpaceHealthIndicator
+2021-03-02 18:31:44,094 INFO  main                             - Found 0 ReadinessCheckCallback implementation: 
+2021-03-02 18:31:44,094 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2021-03-02 18:31:44,096 INFO  main                             - HealthChecker[sofaModuleHealthChecker] readiness check fail with 0 retry.
+2021-03-02 18:31:44,109 ERROR main                             - HealthChecker[sofaModuleHealthChecker] readiness check fail with 0 retry; fail details:{"go-biz-shared":"passed","go-common-dal":"passed","go-biz-service-impl":"failed"}; strict mode:true
+2021-03-02 18:31:44,111 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check success with 0 retry.
+2021-03-02 18:31:44,111 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
+2021-03-02 18:31:44,111 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
+2021-03-02 18:31:44,112 ERROR main                             - HealthIndicator[sofaModuleHealthIndicator] readiness check fail; the status is: DOWN; the detail is: {"go-biz-shared":"passed","go-common-dal":"passed","go-biz-service-impl":"failed"}.
+2021-03-02 18:31:44,112 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2021-03-02 18:31:44,113 ERROR main                             - SOFABoot HealthIndicator readiness check result: failed.
+2021-03-02 18:31:44,113 ERROR main                             - Readiness check result: fail

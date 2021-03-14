@@ -1,0 +1,4 @@
+2021-03-02 18:31:43,753 INFO  main  - Thread pool 'sofa-boot-sofa-module-start' started with period: 30 SECONDS
+2021-03-02 18:31:43,754 INFO  main  - Thread pool with name 'sofa-boot-sofa-module-start' registered
+2021-03-02 18:31:44,088 INFO  sofa-module-start-1-thread-2 - Thread pool 'sofa-boot-sofa-module-start' stopped.
+2021-03-02 18:31:44,089 INFO  sofa-module-start-1-thread-2 - Thread pool with name 'sofa-boot-sofa-module-start' unregistered

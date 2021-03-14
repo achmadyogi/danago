@@ -1,0 +1,16 @@
+2021-02-25 07:09:27,127 INFO  main  - Thread pool 'sofa-boot-sofa-module-start' started with period: 30 SECONDS
+2021-02-25 07:09:27,127 INFO  main  - Thread pool with name 'sofa-boot-sofa-module-start' registered
+2021-02-25 07:09:27,472 INFO  sofa-module-start-1-thread-3 - Thread pool 'sofa-boot-sofa-module-start' stopped.
+2021-02-25 07:09:27,473 INFO  sofa-module-start-1-thread-3 - Thread pool with name 'sofa-boot-sofa-module-start' unregistered
+2021-02-25 07:10:15,483 INFO  main  - Thread pool 'sofa-boot-sofa-module-start' started with period: 30 SECONDS
+2021-02-25 07:10:15,484 INFO  main  - Thread pool with name 'sofa-boot-sofa-module-start' registered
+2021-02-25 07:10:16,134 INFO  sofa-module-start-1-thread-1 - Thread pool 'sofa-boot-sofa-module-start' stopped.
+2021-02-25 07:10:16,134 INFO  sofa-module-start-1-thread-1 - Thread pool with name 'sofa-boot-sofa-module-start' unregistered
+2021-02-25 07:10:42,913 INFO  main  - Thread pool 'sofa-boot-sofa-module-start' started with period: 30 SECONDS
+2021-02-25 07:10:42,913 INFO  main  - Thread pool with name 'sofa-boot-sofa-module-start' registered
+2021-02-25 07:10:43,257 INFO  sofa-module-start-1-thread-1 - Thread pool 'sofa-boot-sofa-module-start' stopped.
+2021-02-25 07:10:43,257 INFO  sofa-module-start-1-thread-1 - Thread pool with name 'sofa-boot-sofa-module-start' unregistered
+2021-02-25 07:10:59,890 INFO  main  - Thread pool 'sofa-boot-sofa-module-start' started with period: 30 SECONDS
+2021-02-25 07:10:59,890 INFO  main  - Thread pool with name 'sofa-boot-sofa-module-start' registered
+2021-02-25 07:11:00,232 INFO  sofa-module-start-1-thread-3 - Thread pool 'sofa-boot-sofa-module-start' stopped.
+2021-02-25 07:11:00,233 INFO  sofa-module-start-1-thread-3 - Thread pool with name 'sofa-boot-sofa-module-start' unregistered

@@ -1,0 +1,28 @@
+2021-03-02 18:31:44,086 ERROR sofa-module-start-go-biz-service-impl - Refreshing Spring Application Context of module go-biz-service-impl got an error.
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ServiceFactoryBean#com.manda.go.facade.HelloWorldGo': Invocation of init method failed; nested exception is com.alipay.sofa.runtime.api.ServiceRuntimeException: Can't find BindingConverter of type binding.bolt
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1771)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at com.alipay.sofa.isle.spring.factory.BeanLoadCostBeanFactory.createBean(BeanLoadCostBeanFactory.java:115)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:828)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at com.alipay.sofa.isle.stage.SpringContextInstallStage.doRefreshSpringContext(SpringContextInstallStage.java:289)
+	at com.alipay.sofa.isle.stage.SpringContextInstallStage$1.run(SpringContextInstallStage.java:252)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at com.alipay.sofa.common.thread.ExecutingRunnable.run(ExecutingRunnable.java:73)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: com.alipay.sofa.runtime.api.ServiceRuntimeException: Can't find BindingConverter of type binding.bolt
+	at com.alipay.sofa.runtime.spring.factory.AbstractContractFactoryBean.dealWithbindingConverterNotExist(AbstractContractFactoryBean.java:137)
+	at com.alipay.sofa.runtime.spring.factory.AbstractContractFactoryBean.parseBindings(AbstractContractFactoryBean.java:113)
+	at com.alipay.sofa.runtime.spring.factory.AbstractContractFactoryBean.afterPropertiesSet(AbstractContractFactoryBean.java:97)
+	at com.alipay.sofa.isle.spring.factory.BeanLoadCostBeanFactory.invokeInitMethods(BeanLoadCostBeanFactory.java:82)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1767)
+	... 18 common frames omitted

@@ -1,0 +1,7 @@
+# Project exclude paths
+/app/biz/service-impl/target/
+/app/biz/shared/target/
+/app/common/dal/target/
+/app/common/service/facade/target/
+/app/test/target/
+/app/web/target/

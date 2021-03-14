@@ -1,0 +1,60 @@
+2021-02-25 07:09:27,476 INFO  main                             - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2021-02-25 07:09:27,477 INFO  main                             - Found 4 HealthIndicator implementation:sofaModuleHealthIndicator,sofaBootHealthIndicator,multiApplicationHealthIndicator,diskSpaceHealthIndicator
+2021-02-25 07:09:27,478 INFO  main                             - Found 0 ReadinessCheckCallback implementation: 
+2021-02-25 07:09:27,478 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2021-02-25 07:09:27,480 INFO  main                             - HealthChecker[sofaModuleHealthChecker] readiness check success with 0 retry.
+2021-02-25 07:09:27,481 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check success with 0 retry.
+2021-02-25 07:09:27,481 INFO  main                             - SOFABoot HealthChecker readiness check result: success.
+2021-02-25 07:09:27,481 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
+2021-02-25 07:09:27,482 INFO  main                             - HealthIndicator[sofaModuleHealthIndicator] readiness check success.
+2021-02-25 07:09:27,482 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2021-02-25 07:09:27,482 INFO  main                             - SOFABoot HealthIndicator readiness check result: success.
+2021-02-25 07:09:27,482 INFO  main                             - Invoking all readiness check callbacks...
+2021-02-25 07:09:27,482 INFO  main                             - Begin ReadinessCheckCallback readiness check
+2021-02-25 07:09:27,482 INFO  main                             - ReadinessCheckCallback readiness check result: success.
+2021-02-25 07:09:27,482 INFO  main                             - Readiness check result: success
+2021-02-25 07:10:16,139 INFO  main                             - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2021-02-25 07:10:16,141 INFO  main                             - Found 4 HealthIndicator implementation:sofaModuleHealthIndicator,sofaBootHealthIndicator,multiApplicationHealthIndicator,diskSpaceHealthIndicator
+2021-02-25 07:10:16,142 INFO  main                             - Found 0 ReadinessCheckCallback implementation: 
+2021-02-25 07:10:16,143 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2021-02-25 07:10:16,144 INFO  main                             - HealthChecker[sofaModuleHealthChecker] readiness check success with 0 retry.
+2021-02-25 07:10:16,146 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check success with 0 retry.
+2021-02-25 07:10:16,146 INFO  main                             - SOFABoot HealthChecker readiness check result: success.
+2021-02-25 07:10:16,146 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
+2021-02-25 07:10:16,147 INFO  main                             - HealthIndicator[sofaModuleHealthIndicator] readiness check success.
+2021-02-25 07:10:16,148 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2021-02-25 07:10:16,148 INFO  main                             - SOFABoot HealthIndicator readiness check result: success.
+2021-02-25 07:10:16,148 INFO  main                             - Invoking all readiness check callbacks...
+2021-02-25 07:10:16,148 INFO  main                             - Begin ReadinessCheckCallback readiness check
+2021-02-25 07:10:16,148 INFO  main                             - ReadinessCheckCallback readiness check result: success.
+2021-02-25 07:10:16,148 INFO  main                             - Readiness check result: success
+2021-02-25 07:10:43,261 INFO  main                             - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2021-02-25 07:10:43,264 INFO  main                             - Found 4 HealthIndicator implementation:sofaModuleHealthIndicator,sofaBootHealthIndicator,multiApplicationHealthIndicator,diskSpaceHealthIndicator
+2021-02-25 07:10:43,265 INFO  main                             - Found 0 ReadinessCheckCallback implementation: 
+2021-02-25 07:10:43,265 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2021-02-25 07:10:43,267 INFO  main                             - HealthChecker[sofaModuleHealthChecker] readiness check success with 0 retry.
+2021-02-25 07:10:43,268 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check success with 0 retry.
+2021-02-25 07:10:43,268 INFO  main                             - SOFABoot HealthChecker readiness check result: success.
+2021-02-25 07:10:43,268 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
+2021-02-25 07:10:43,269 INFO  main                             - HealthIndicator[sofaModuleHealthIndicator] readiness check success.
+2021-02-25 07:10:43,269 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2021-02-25 07:10:43,269 INFO  main                             - SOFABoot HealthIndicator readiness check result: success.
+2021-02-25 07:10:43,269 INFO  main                             - Invoking all readiness check callbacks...
+2021-02-25 07:10:43,269 INFO  main                             - Begin ReadinessCheckCallback readiness check
+2021-02-25 07:10:43,269 INFO  main                             - ReadinessCheckCallback readiness check result: success.
+2021-02-25 07:10:43,269 INFO  main                             - Readiness check result: success
+2021-02-25 07:11:00,235 INFO  main                             - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2021-02-25 07:11:00,236 INFO  main                             - Found 4 HealthIndicator implementation:sofaModuleHealthIndicator,sofaBootHealthIndicator,multiApplicationHealthIndicator,diskSpaceHealthIndicator
+2021-02-25 07:11:00,237 INFO  main                             - Found 0 ReadinessCheckCallback implementation: 
+2021-02-25 07:11:00,237 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2021-02-25 07:11:00,239 INFO  main                             - HealthChecker[sofaModuleHealthChecker] readiness check success with 0 retry.
+2021-02-25 07:11:00,240 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check success with 0 retry.
+2021-02-25 07:11:00,240 INFO  main                             - SOFABoot HealthChecker readiness check result: success.
+2021-02-25 07:11:00,241 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
+2021-02-25 07:11:00,241 INFO  main                             - HealthIndicator[sofaModuleHealthIndicator] readiness check success.
+2021-02-25 07:11:00,241 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2021-02-25 07:11:00,241 INFO  main                             - SOFABoot HealthIndicator readiness check result: success.
+2021-02-25 07:11:00,241 INFO  main                             - Invoking all readiness check callbacks...
+2021-02-25 07:11:00,241 INFO  main                             - Begin ReadinessCheckCallback readiness check
+2021-02-25 07:11:00,242 INFO  main                             - ReadinessCheckCallback readiness check result: success.
+2021-02-25 07:11:00,242 INFO  main                             - Readiness check result: success

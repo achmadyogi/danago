@@ -1,0 +1,840 @@
+2021-03-14 12:19:55,916 INFO  main                             - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2021-03-14 12:19:55,918 INFO  main                             - Found 4 HealthIndicator implementation:sofaModuleHealthIndicator,sofaBootHealthIndicator,multiApplicationHealthIndicator,diskSpaceHealthIndicator
+2021-03-14 12:19:55,919 INFO  main                             - Found 0 ReadinessCheckCallback implementation: 
+2021-03-14 12:19:55,920 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2021-03-14 12:19:55,921 INFO  main                             - HealthChecker[sofaModuleHealthChecker] readiness check fail with 0 retry.
+2021-03-14 12:19:55,934 ERROR main                             - HealthChecker[sofaModuleHealthChecker] readiness check fail with 0 retry; fail details:{"go-biz-shared":"passed","go-common-dal":"passed","go-biz-service-impl":"failed"}; strict mode:true
+2021-03-14 12:19:55,935 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check success with 0 retry.
+2021-03-14 12:19:55,936 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
+2021-03-14 12:19:55,937 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
+2021-03-14 12:19:55,937 ERROR main                             - HealthIndicator[sofaModuleHealthIndicator] readiness check fail; the status is: DOWN; the detail is: {"go-biz-shared":"passed","go-common-dal":"passed","go-biz-service-impl":"failed"}.
+2021-03-14 12:19:55,938 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2021-03-14 12:19:55,938 ERROR main                             - SOFABoot HealthIndicator readiness check result: failed.
+2021-03-14 12:19:55,938 ERROR main                             - Readiness check result: fail
+2021-03-14 14:34:24,667 INFO  main                             - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2021-03-14 14:34:24,668 INFO  main                             - Found 5 HealthIndicator implementation:sofaModuleHealthIndicator,sofaBootHealthIndicator,multiApplicationHealthIndicator,diskSpaceHealthIndicator,dbHealthIndicator
+2021-03-14 14:34:24,669 INFO  main                             - Found 0 ReadinessCheckCallback implementation: 
+2021-03-14 14:34:24,669 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2021-03-14 14:34:24,670 INFO  main                             - HealthChecker[sofaModuleHealthChecker] readiness check fail with 0 retry.
+2021-03-14 14:34:24,682 ERROR main                             - HealthChecker[sofaModuleHealthChecker] readiness check fail with 0 retry; fail details:{"go-biz-shared":"passed","go-common-dal":"failed","go-biz-service-impl":"failed"}; strict mode:true
+2021-03-14 14:34:24,684 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 0 retry.
+2021-03-14 14:34:25,685 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 1 retry.
+2021-03-14 14:34:26,691 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 2 retry.
+2021-03-14 14:34:27,697 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 3 retry.
+2021-03-14 14:34:28,699 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 4 retry.
+2021-03-14 14:34:29,702 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 5 retry.
+2021-03-14 14:34:30,702 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 6 retry.
+2021-03-14 14:34:31,705 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 7 retry.
+2021-03-14 14:34:32,712 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 8 retry.
+2021-03-14 14:34:33,717 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 9 retry.
+2021-03-14 14:34:34,722 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 10 retry.
+2021-03-14 14:34:35,723 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 11 retry.
+2021-03-14 14:34:58,807 INFO  main                             - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2021-03-14 14:34:58,809 INFO  main                             - Found 5 HealthIndicator implementation:sofaModuleHealthIndicator,sofaBootHealthIndicator,multiApplicationHealthIndicator,diskSpaceHealthIndicator,dbHealthIndicator
+2021-03-14 14:34:58,810 INFO  main                             - Found 0 ReadinessCheckCallback implementation: 
+2021-03-14 14:34:58,810 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2021-03-14 14:34:58,811 INFO  main                             - HealthChecker[sofaModuleHealthChecker] readiness check fail with 0 retry.
+2021-03-14 14:34:58,821 ERROR main                             - HealthChecker[sofaModuleHealthChecker] readiness check fail with 0 retry; fail details:{"go-biz-shared":"passed","go-common-dal":"failed","go-biz-service-impl":"failed"}; strict mode:true
+2021-03-14 14:34:58,823 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 0 retry.
+2021-03-14 14:34:59,824 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 1 retry.
+2021-03-14 14:35:00,828 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 2 retry.
+2021-03-14 14:35:01,832 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 3 retry.
+2021-03-14 14:35:02,838 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 4 retry.
+2021-03-14 14:35:03,841 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 5 retry.
+2021-03-14 14:35:04,846 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 6 retry.
+2021-03-14 14:35:05,852 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 7 retry.
+2021-03-14 14:35:06,854 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 8 retry.
+2021-03-14 14:35:07,861 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 9 retry.
+2021-03-14 14:35:08,863 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 10 retry.
+2021-03-14 14:35:09,864 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 11 retry.
+2021-03-14 14:35:10,870 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 12 retry.
+2021-03-14 14:35:11,874 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 13 retry.
+2021-03-14 14:35:12,881 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 14 retry.
+2021-03-14 14:35:13,883 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 15 retry.
+2021-03-14 14:35:14,886 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 16 retry.
+2021-03-14 14:35:15,890 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 17 retry.
+2021-03-14 14:35:16,891 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 18 retry.
+2021-03-14 14:35:17,892 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 19 retry.
+2021-03-14 14:35:18,898 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"reference:com.manda.go.common.dal.dai.NewsManageDao:#739604181":"[jvm,can not find corresponding jvm service]","reference:com.manda.go.facade.NewsWriteService:#739604181":"[jvm,can not find corresponding jvm service]","reference:javax.sql.DataSource:#823880751":"[jvm,can not find corresponding jvm service]","reference:com.manda.go.facade.NewsReadService:#739604181":"[jvm,passed]","Spring:go-biz-shared":"passed","service:com.manda.go.facade.NewsReadService":"[jvm,passed]"}; strict mode:true
+2021-03-14 14:35:18,900 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
+2021-03-14 14:35:18,901 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
+2021-03-14 14:35:18,903 ERROR main                             - HealthIndicator[sofaModuleHealthIndicator] readiness check fail; the status is: DOWN; the detail is: {"go-biz-shared":"passed","go-common-dal":"failed","go-biz-service-impl":"failed"}.
+2021-03-14 14:35:18,904 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2021-03-14 14:35:20,099 ERROR main                             - HealthIndicator[dbHealthIndicator] readiness check fail; the status is: DOWN; the detail is: {"error":"org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'achmadyogi'@'localhost' (using password: YES)"}.
+2021-03-14 14:35:20,099 ERROR main                             - SOFABoot HealthIndicator readiness check result: failed.
+2021-03-14 14:35:20,099 ERROR main                             - Readiness check result: fail
+2021-03-14 14:36:30,266 INFO  main                             - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2021-03-14 14:36:30,267 INFO  main                             - Found 5 HealthIndicator implementation:sofaModuleHealthIndicator,sofaBootHealthIndicator,multiApplicationHealthIndicator,diskSpaceHealthIndicator,dbHealthIndicator
+2021-03-14 14:36:30,267 INFO  main                             - Found 0 ReadinessCheckCallback implementation: 
+2021-03-14 14:36:30,268 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2021-03-14 14:36:30,269 INFO  main                             - HealthChecker[sofaModuleHealthChecker] readiness check fail with 0 retry.
+2021-03-14 14:36:30,278 ERROR main                             - HealthChecker[sofaModuleHealthChecker] readiness check fail with 0 retry; fail details:{"go-common-dal":"passed","go-biz-shared":"passed","go-biz-service-impl":"failed"}; strict mode:true
+2021-03-14 14:36:30,280 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 0 retry.
+2021-03-14 14:36:31,284 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 1 retry.
+2021-03-14 14:36:32,286 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 2 retry.
+2021-03-14 14:36:33,288 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 3 retry.
+2021-03-14 14:36:34,293 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 4 retry.
+2021-03-14 14:36:35,299 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 5 retry.
+2021-03-14 14:36:36,303 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 6 retry.
+2021-03-14 14:36:37,309 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 7 retry.
+2021-03-14 14:36:38,315 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 8 retry.
+2021-03-14 14:36:39,321 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 9 retry.
+2021-03-14 14:36:40,321 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 10 retry.
+2021-03-14 14:36:41,327 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 11 retry.
+2021-03-14 14:36:42,332 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 12 retry.
+2021-03-14 14:36:43,333 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 13 retry.
+2021-03-14 14:36:44,334 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 14 retry.
+2021-03-14 14:36:45,339 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 15 retry.
+2021-03-14 14:36:46,344 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 16 retry.
+2021-03-14 14:36:47,350 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 17 retry.
+2021-03-14 14:36:48,352 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 18 retry.
+2021-03-14 14:36:49,355 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 19 retry.
+2021-03-14 14:36:50,357 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"reference:com.manda.go.facade.NewsWriteService:#739604181":"[jvm,can not find corresponding jvm service]","reference:javax.sql.DataSource:#818315282":"[jvm,can not find corresponding jvm service]","reference:com.manda.go.facade.NewsReadService:#739604181":"[jvm,passed]","reference:com.manda.go.common.dal.dai.NewsManageDao:#739604181":"[jvm,passed]","Spring:go-biz-shared":"passed","Spring:go-common-dal":"passed","service:com.manda.go.facade.NewsReadService":"[jvm,passed]","service:com.manda.go.common.dal.dai.NewsManageDao":"[jvm,passed]"}; strict mode:true
+2021-03-14 14:36:50,357 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
+2021-03-14 14:36:50,358 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
+2021-03-14 14:36:50,363 ERROR main                             - HealthIndicator[sofaModuleHealthIndicator] readiness check fail; the status is: DOWN; the detail is: {"go-common-dal":"passed","go-biz-shared":"passed","go-biz-service-impl":"failed"}.
+2021-03-14 14:36:50,364 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2021-03-14 14:36:51,591 ERROR main                             - HealthIndicator[dbHealthIndicator] readiness check fail; the status is: DOWN; the detail is: {"error":"org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'achmadyogi'@'localhost' (using password: YES)"}.
+2021-03-14 14:36:51,591 ERROR main                             - SOFABoot HealthIndicator readiness check result: failed.
+2021-03-14 14:36:51,591 ERROR main                             - Readiness check result: fail
+2021-03-14 14:41:25,755 INFO  main                             - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2021-03-14 14:41:25,756 INFO  main                             - Found 5 HealthIndicator implementation:sofaModuleHealthIndicator,sofaBootHealthIndicator,multiApplicationHealthIndicator,diskSpaceHealthIndicator,dbHealthIndicator
+2021-03-14 14:41:25,757 INFO  main                             - Found 0 ReadinessCheckCallback implementation: 
+2021-03-14 14:41:25,757 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2021-03-14 14:41:25,758 INFO  main                             - HealthChecker[sofaModuleHealthChecker] readiness check fail with 0 retry.
+2021-03-14 14:41:25,768 ERROR main                             - HealthChecker[sofaModuleHealthChecker] readiness check fail with 0 retry; fail details:{"go-common-dal":"passed","go-biz-shared":"passed","go-biz-service-impl":"failed"}; strict mode:true
+2021-03-14 14:41:25,770 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 0 retry.
+2021-03-14 14:41:26,775 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 1 retry.
+2021-03-14 14:41:27,776 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 2 retry.
+2021-03-14 14:41:28,777 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 3 retry.
+2021-03-14 14:41:29,778 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 4 retry.
+2021-03-14 14:41:30,781 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 5 retry.
+2021-03-14 14:41:31,786 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 6 retry.
+2021-03-14 14:41:32,792 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 7 retry.
+2021-03-14 14:41:33,798 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 8 retry.
+2021-03-14 14:41:34,804 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 9 retry.
+2021-03-14 14:41:35,809 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 10 retry.
+2021-03-14 14:41:36,814 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 11 retry.
+2021-03-14 14:41:37,818 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 12 retry.
+2021-03-14 14:41:38,824 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 13 retry.
+2021-03-14 14:41:39,830 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 14 retry.
+2021-03-14 14:41:40,831 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 15 retry.
+2021-03-14 14:41:41,832 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 16 retry.
+2021-03-14 14:41:42,832 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 17 retry.
+2021-03-14 14:41:43,833 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 18 retry.
+2021-03-14 14:41:44,839 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 19 retry.
+2021-03-14 14:41:45,845 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"reference:com.manda.go.facade.NewsWriteService:#739604181":"[jvm,can not find corresponding jvm service]","reference:javax.sql.DataSource:#630748340":"[jvm,can not find corresponding jvm service]","reference:com.manda.go.facade.NewsReadService:#739604181":"[jvm,passed]","reference:com.manda.go.common.dal.dai.NewsManageDao:#739604181":"[jvm,passed]","Spring:go-biz-shared":"passed","Spring:go-common-dal":"passed","service:com.manda.go.facade.NewsReadService":"[jvm,passed]","service:com.manda.go.common.dal.dai.NewsManageDao":"[jvm,passed]"}; strict mode:true
+2021-03-14 14:41:45,845 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
+2021-03-14 14:41:45,846 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
+2021-03-14 14:41:45,848 ERROR main                             - HealthIndicator[sofaModuleHealthIndicator] readiness check fail; the status is: DOWN; the detail is: {"go-common-dal":"passed","go-biz-shared":"passed","go-biz-service-impl":"failed"}.
+2021-03-14 14:41:45,849 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2021-03-14 14:41:47,052 ERROR main                             - HealthIndicator[dbHealthIndicator] readiness check fail; the status is: DOWN; the detail is: {"error":"org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'achmadyogi'@'localhost' (using password: YES)"}.
+2021-03-14 14:41:47,052 ERROR main                             - SOFABoot HealthIndicator readiness check result: failed.
+2021-03-14 14:41:47,052 ERROR main                             - Readiness check result: fail
+2021-03-14 14:45:47,445 INFO  main                             - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2021-03-14 14:45:47,446 INFO  main                             - Found 5 HealthIndicator implementation:sofaModuleHealthIndicator,sofaBootHealthIndicator,multiApplicationHealthIndicator,diskSpaceHealthIndicator,dbHealthIndicator
+2021-03-14 14:45:47,447 INFO  main                             - Found 0 ReadinessCheckCallback implementation: 
+2021-03-14 14:45:47,447 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2021-03-14 14:45:47,448 INFO  main                             - HealthChecker[sofaModuleHealthChecker] readiness check fail with 0 retry.
+2021-03-14 14:45:47,458 ERROR main                             - HealthChecker[sofaModuleHealthChecker] readiness check fail with 0 retry; fail details:{"go-biz-shared":"passed","go-common-dal":"passed","go-biz-service-impl":"failed"}; strict mode:true
+2021-03-14 14:45:47,459 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 0 retry.
+2021-03-14 14:45:48,462 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 1 retry.
+2021-03-14 14:45:49,465 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 2 retry.
+2021-03-14 14:45:50,471 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 3 retry.
+2021-03-14 14:45:51,477 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 4 retry.
+2021-03-14 14:45:52,483 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 5 retry.
+2021-03-14 14:45:53,488 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 6 retry.
+2021-03-14 14:45:54,494 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 7 retry.
+2021-03-14 14:45:55,498 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 8 retry.
+2021-03-14 14:45:56,504 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 9 retry.
+2021-03-14 14:45:57,506 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 10 retry.
+2021-03-14 14:45:58,508 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 11 retry.
+2021-03-14 14:45:59,513 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 12 retry.
+2021-03-14 14:46:00,515 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 13 retry.
+2021-03-14 14:46:01,521 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 14 retry.
+2021-03-14 14:46:02,525 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 15 retry.
+2021-03-14 14:46:03,530 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 16 retry.
+2021-03-14 14:46:04,536 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 17 retry.
+2021-03-14 14:46:05,542 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 18 retry.
+2021-03-14 14:46:06,548 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 19 retry.
+2021-03-14 14:46:07,549 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"reference:com.manda.go.facade.NewsWriteService:#739604181":"[jvm,can not find corresponding jvm service]","reference:javax.sql.DataSource:#493043720":"[jvm,can not find corresponding jvm service]","reference:com.manda.go.facade.NewsReadService:#739604181":"[jvm,passed]","reference:com.manda.go.common.dal.dai.NewsManageDao:#739604181":"[jvm,passed]","Spring:go-biz-shared":"passed","Spring:go-common-dal":"passed","service:com.manda.go.facade.NewsReadService":"[jvm,passed]","service:com.manda.go.common.dal.dai.NewsManageDao":"[jvm,passed]"}; strict mode:true
+2021-03-14 14:46:07,550 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
+2021-03-14 14:46:07,551 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
+2021-03-14 14:46:07,553 ERROR main                             - HealthIndicator[sofaModuleHealthIndicator] readiness check fail; the status is: DOWN; the detail is: {"go-biz-shared":"passed","go-common-dal":"passed","go-biz-service-impl":"failed"}.
+2021-03-14 14:46:07,554 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2021-03-14 14:46:08,743 ERROR main                             - HealthIndicator[dbHealthIndicator] readiness check fail; the status is: DOWN; the detail is: {"error":"org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'achmadyogi'@'localhost' (using password: YES)"}.
+2021-03-14 14:46:08,743 ERROR main                             - SOFABoot HealthIndicator readiness check result: failed.
+2021-03-14 14:46:08,743 ERROR main                             - Readiness check result: fail
+2021-03-14 14:49:03,756 INFO  main                             - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2021-03-14 14:49:03,757 INFO  main                             - Found 5 HealthIndicator implementation:sofaModuleHealthIndicator,sofaBootHealthIndicator,multiApplicationHealthIndicator,diskSpaceHealthIndicator,dbHealthIndicator
+2021-03-14 14:49:03,758 INFO  main                             - Found 0 ReadinessCheckCallback implementation: 
+2021-03-14 14:49:03,758 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2021-03-14 14:49:03,760 INFO  main                             - HealthChecker[sofaModuleHealthChecker] readiness check fail with 0 retry.
+2021-03-14 14:49:03,769 ERROR main                             - HealthChecker[sofaModuleHealthChecker] readiness check fail with 0 retry; fail details:{"go-biz-shared":"passed","go-common-dal":"passed","go-biz-service-impl":"failed"}; strict mode:true
+2021-03-14 14:49:03,770 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 0 retry.
+2021-03-14 14:49:04,776 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 1 retry.
+2021-03-14 14:49:05,777 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 2 retry.
+2021-03-14 14:49:06,778 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 3 retry.
+2021-03-14 14:49:07,785 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 4 retry.
+2021-03-14 14:49:08,789 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 5 retry.
+2021-03-14 14:49:09,794 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 6 retry.
+2021-03-14 14:49:10,796 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 7 retry.
+2021-03-14 14:49:11,801 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 8 retry.
+2021-03-14 14:49:12,805 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 9 retry.
+2021-03-14 14:49:13,808 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 10 retry.
+2021-03-14 14:49:14,809 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 11 retry.
+2021-03-14 14:49:15,813 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 12 retry.
+2021-03-14 14:49:16,818 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 13 retry.
+2021-03-14 14:49:17,823 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 14 retry.
+2021-03-14 14:49:18,824 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 15 retry.
+2021-03-14 14:49:19,830 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 16 retry.
+2021-03-14 14:49:20,836 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 17 retry.
+2021-03-14 14:49:21,841 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 18 retry.
+2021-03-14 14:49:22,847 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 19 retry.
+2021-03-14 14:49:23,853 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"reference:javax.sql.DataSource:#895365502":"[jvm,can not find corresponding jvm service]","reference:com.manda.go.facade.NewsWriteService:#739604181":"[jvm,can not find corresponding jvm service]","reference:com.manda.go.facade.NewsReadService:#739604181":"[jvm,passed]","reference:com.manda.go.common.dal.dai.NewsManageDao:#739604181":"[jvm,passed]","Spring:go-biz-shared":"passed","Spring:go-common-dal":"passed","service:com.manda.go.facade.NewsReadService":"[jvm,passed]","service:com.manda.go.common.dal.dai.NewsManageDao":"[jvm,passed]"}; strict mode:true
+2021-03-14 14:49:23,854 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
+2021-03-14 14:49:23,855 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
+2021-03-14 14:49:23,857 ERROR main                             - HealthIndicator[sofaModuleHealthIndicator] readiness check fail; the status is: DOWN; the detail is: {"go-biz-shared":"passed","go-common-dal":"passed","go-biz-service-impl":"failed"}.
+2021-03-14 14:49:23,857 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2021-03-14 14:49:25,012 ERROR main                             - HealthIndicator[dbHealthIndicator] readiness check fail; the status is: DOWN; the detail is: {"error":"org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'achmadyogi'@'localhost' (using password: YES)"}.
+2021-03-14 14:49:25,013 ERROR main                             - SOFABoot HealthIndicator readiness check result: failed.
+2021-03-14 14:49:25,013 ERROR main                             - Readiness check result: fail
+2021-03-14 14:51:14,241 INFO  main                             - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2021-03-14 14:51:14,243 INFO  main                             - Found 5 HealthIndicator implementation:sofaModuleHealthIndicator,sofaBootHealthIndicator,multiApplicationHealthIndicator,diskSpaceHealthIndicator,dbHealthIndicator
+2021-03-14 14:51:14,244 INFO  main                             - Found 0 ReadinessCheckCallback implementation: 
+2021-03-14 14:51:14,245 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2021-03-14 14:51:14,247 INFO  main                             - HealthChecker[sofaModuleHealthChecker] readiness check fail with 0 retry.
+2021-03-14 14:51:14,261 ERROR main                             - HealthChecker[sofaModuleHealthChecker] readiness check fail with 0 retry; fail details:{"go-biz-shared":"passed","go-common-dal":"passed","go-biz-service-impl":"failed"}; strict mode:true
+2021-03-14 14:51:14,264 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 0 retry.
+2021-03-14 14:51:15,268 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 1 retry.
+2021-03-14 14:51:16,270 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 2 retry.
+2021-03-14 14:51:17,273 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 3 retry.
+2021-03-14 14:51:18,278 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 4 retry.
+2021-03-14 14:51:19,278 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 5 retry.
+2021-03-14 14:51:20,279 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 6 retry.
+2021-03-14 14:51:21,280 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 7 retry.
+2021-03-14 14:51:22,286 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 8 retry.
+2021-03-14 14:51:23,291 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 9 retry.
+2021-03-14 14:51:24,297 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 10 retry.
+2021-03-14 14:51:25,298 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 11 retry.
+2021-03-14 14:51:26,299 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 12 retry.
+2021-03-14 14:51:27,300 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 13 retry.
+2021-03-14 14:51:28,304 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 14 retry.
+2021-03-14 14:51:29,310 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 15 retry.
+2021-03-14 14:51:30,317 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 16 retry.
+2021-03-14 14:51:31,323 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 17 retry.
+2021-03-14 14:51:32,328 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 18 retry.
+2021-03-14 14:51:33,331 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 19 retry.
+2021-03-14 14:51:34,337 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"reference:javax.sql.DataSource:#818315282":"[jvm,can not find corresponding jvm service]","reference:com.manda.go.facade.NewsReadService:#739604181":"[jvm,passed]","service:com.manda.go.facade.NewsWriteService":"[jvm,passed]","reference:com.manda.go.common.dal.dai.NewsManageDao:#739604181":"[jvm,passed]","reference:com.manda.go.facade.NewsWriteService:#739604181":"[jvm,passed]","Spring:go-biz-shared":"passed","Spring:go-common-dal":"passed","service:com.manda.go.facade.NewsReadService":"[jvm,passed]","service:com.manda.go.common.dal.dai.NewsManageDao":"[jvm,passed]"}; strict mode:true
+2021-03-14 14:51:34,338 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
+2021-03-14 14:51:34,339 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
+2021-03-14 14:51:34,341 ERROR main                             - HealthIndicator[sofaModuleHealthIndicator] readiness check fail; the status is: DOWN; the detail is: {"go-biz-shared":"passed","go-common-dal":"passed","go-biz-service-impl":"failed"}.
+2021-03-14 14:51:34,341 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2021-03-14 14:51:35,508 ERROR main                             - HealthIndicator[dbHealthIndicator] readiness check fail; the status is: DOWN; the detail is: {"error":"org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'achmadyogi'@'localhost' (using password: YES)"}.
+2021-03-14 14:51:35,508 ERROR main                             - SOFABoot HealthIndicator readiness check result: failed.
+2021-03-14 14:51:35,509 ERROR main                             - Readiness check result: fail
+2021-03-14 15:06:36,725 INFO  main                             - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2021-03-14 15:06:36,727 INFO  main                             - Found 5 HealthIndicator implementation:sofaModuleHealthIndicator,sofaBootHealthIndicator,multiApplicationHealthIndicator,diskSpaceHealthIndicator,dbHealthIndicator
+2021-03-14 15:06:36,728 INFO  main                             - Found 0 ReadinessCheckCallback implementation: 
+2021-03-14 15:06:36,728 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2021-03-14 15:06:36,730 INFO  main                             - HealthChecker[sofaModuleHealthChecker] readiness check fail with 0 retry.
+2021-03-14 15:06:36,749 ERROR main                             - HealthChecker[sofaModuleHealthChecker] readiness check fail with 0 retry; fail details:{"go-biz-shared":"passed","go-common-dal":"failed","go-biz-service-impl":"failed"}; strict mode:true
+2021-03-14 15:06:36,751 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 0 retry.
+2021-03-14 15:06:37,754 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 1 retry.
+2021-03-14 15:06:38,756 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 2 retry.
+2021-03-14 15:06:39,759 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 3 retry.
+2021-03-14 15:06:40,764 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 4 retry.
+2021-03-14 15:06:41,770 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 5 retry.
+2021-03-14 15:06:42,772 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 6 retry.
+2021-03-14 15:06:43,773 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 7 retry.
+2021-03-14 15:06:44,778 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 8 retry.
+2021-03-14 15:06:45,784 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 9 retry.
+2021-03-14 15:06:46,790 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 10 retry.
+2021-03-14 15:06:47,793 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 11 retry.
+2021-03-14 15:06:48,794 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 12 retry.
+2021-03-14 15:06:49,795 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 13 retry.
+2021-03-14 15:06:50,795 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 14 retry.
+2021-03-14 15:06:51,796 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 15 retry.
+2021-03-14 15:06:52,799 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 16 retry.
+2021-03-14 15:06:53,804 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 17 retry.
+2021-03-14 15:06:54,808 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 18 retry.
+2021-03-14 15:06:55,809 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 19 retry.
+2021-03-14 15:06:56,817 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"reference:javax.sql.DataSource:#1911777474":"[jvm,can not find corresponding jvm service]","reference:com.manda.go.common.dal.dai.NewsManageDao:#739604181":"[jvm,can not find corresponding jvm service]","reference:com.manda.go.facade.NewsReadService:#739604181":"[jvm,passed]","service:com.manda.go.facade.NewsWriteService":"[jvm,passed]","reference:com.manda.go.facade.NewsWriteService:#739604181":"[jvm,passed]","Spring:go-biz-shared":"passed","service:com.manda.go.facade.NewsReadService":"[jvm,passed]"}; strict mode:true
+2021-03-14 15:06:56,817 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
+2021-03-14 15:06:56,819 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
+2021-03-14 15:06:56,821 ERROR main                             - HealthIndicator[sofaModuleHealthIndicator] readiness check fail; the status is: DOWN; the detail is: {"go-biz-shared":"passed","go-common-dal":"failed","go-biz-service-impl":"failed"}.
+2021-03-14 15:06:56,822 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2021-03-14 15:06:58,180 ERROR main                             - HealthIndicator[dbHealthIndicator] readiness check fail; the status is: DOWN; the detail is: {"error":"org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'achmadyogi'@'localhost' (using password: YES)"}.
+2021-03-14 15:06:58,181 ERROR main                             - SOFABoot HealthIndicator readiness check result: failed.
+2021-03-14 15:06:58,181 ERROR main                             - Readiness check result: fail
+2021-03-14 15:09:59,410 INFO  main                             - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2021-03-14 15:09:59,411 INFO  main                             - Found 5 HealthIndicator implementation:sofaModuleHealthIndicator,sofaBootHealthIndicator,multiApplicationHealthIndicator,diskSpaceHealthIndicator,dbHealthIndicator
+2021-03-14 15:09:59,412 INFO  main                             - Found 0 ReadinessCheckCallback implementation: 
+2021-03-14 15:09:59,413 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2021-03-14 15:09:59,414 INFO  main                             - HealthChecker[sofaModuleHealthChecker] readiness check fail with 0 retry.
+2021-03-14 15:09:59,424 ERROR main                             - HealthChecker[sofaModuleHealthChecker] readiness check fail with 0 retry; fail details:{"go-biz-shared":"passed","go-common-dal":"failed","go-biz-service-impl":"failed"}; strict mode:true
+2021-03-14 15:09:59,425 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 0 retry.
+2021-03-14 15:10:00,427 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 1 retry.
+2021-03-14 15:10:01,429 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 2 retry.
+2021-03-14 15:10:02,434 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 3 retry.
+2021-03-14 15:10:03,435 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 4 retry.
+2021-03-14 15:10:04,436 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 5 retry.
+2021-03-14 15:10:05,437 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 6 retry.
+2021-03-14 15:10:06,441 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 7 retry.
+2021-03-14 15:10:07,442 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 8 retry.
+2021-03-14 15:10:08,445 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 9 retry.
+2021-03-14 15:10:09,450 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 10 retry.
+2021-03-14 15:10:10,453 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 11 retry.
+2021-03-14 15:10:11,456 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 12 retry.
+2021-03-14 15:10:12,459 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 13 retry.
+2021-03-14 15:10:13,463 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 14 retry.
+2021-03-14 15:10:14,468 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 15 retry.
+2021-03-14 15:10:15,472 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 16 retry.
+2021-03-14 15:10:16,478 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 17 retry.
+2021-03-14 15:10:17,483 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 18 retry.
+2021-03-14 15:10:18,488 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 19 retry.
+2021-03-14 15:10:19,492 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"reference:com.manda.go.common.dal.dai.NewsManageDao:#739604181":"[jvm,can not find corresponding jvm service]","reference:javax.sql.DataSource:#131638008":"[jvm,can not find corresponding jvm service]","reference:com.manda.go.facade.NewsReadService:#739604181":"[jvm,passed]","service:com.manda.go.facade.NewsWriteService":"[jvm,passed]","reference:com.manda.go.facade.NewsWriteService:#739604181":"[jvm,passed]","Spring:go-biz-shared":"passed","service:com.manda.go.facade.NewsReadService":"[jvm,passed]"}; strict mode:true
+2021-03-14 15:10:19,493 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
+2021-03-14 15:10:19,494 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
+2021-03-14 15:10:19,496 ERROR main                             - HealthIndicator[sofaModuleHealthIndicator] readiness check fail; the status is: DOWN; the detail is: {"go-biz-shared":"passed","go-common-dal":"failed","go-biz-service-impl":"failed"}.
+2021-03-14 15:10:19,497 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2021-03-14 15:10:19,675 INFO  main                             - HealthIndicator[dbHealthIndicator] readiness check success.
+2021-03-14 15:10:19,675 ERROR main                             - SOFABoot HealthIndicator readiness check result: failed.
+2021-03-14 15:10:19,676 ERROR main                             - Readiness check result: fail
+2021-03-14 15:14:31,317 INFO  main                             - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2021-03-14 15:14:31,319 INFO  main                             - Found 5 HealthIndicator implementation:sofaModuleHealthIndicator,sofaBootHealthIndicator,multiApplicationHealthIndicator,diskSpaceHealthIndicator,dbHealthIndicator
+2021-03-14 15:14:31,320 INFO  main                             - Found 0 ReadinessCheckCallback implementation: 
+2021-03-14 15:14:31,320 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2021-03-14 15:14:31,321 INFO  main                             - HealthChecker[sofaModuleHealthChecker] readiness check fail with 0 retry.
+2021-03-14 15:14:31,332 ERROR main                             - HealthChecker[sofaModuleHealthChecker] readiness check fail with 0 retry; fail details:{"go-biz-shared":"passed","go-common-dal":"failed","go-biz-service-impl":"failed"}; strict mode:true
+2021-03-14 15:14:31,334 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 0 retry.
+2021-03-14 15:14:32,339 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 1 retry.
+2021-03-14 15:14:33,340 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 2 retry.
+2021-03-14 15:14:34,341 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 3 retry.
+2021-03-14 15:14:35,343 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 4 retry.
+2021-03-14 15:14:36,348 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 5 retry.
+2021-03-14 15:14:37,349 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 6 retry.
+2021-03-14 15:14:38,355 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 7 retry.
+2021-03-14 15:14:39,360 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 8 retry.
+2021-03-14 15:14:40,365 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 9 retry.
+2021-03-14 15:14:41,369 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 10 retry.
+2021-03-14 15:14:42,375 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 11 retry.
+2021-03-14 15:14:43,381 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 12 retry.
+2021-03-14 15:14:44,385 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 13 retry.
+2021-03-14 15:14:45,388 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 14 retry.
+2021-03-14 15:14:46,392 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 15 retry.
+2021-03-14 15:14:47,396 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 16 retry.
+2021-03-14 15:14:48,402 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 17 retry.
+2021-03-14 15:14:49,407 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 18 retry.
+2021-03-14 15:14:50,410 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 19 retry.
+2021-03-14 15:14:51,413 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"reference:javax.sql.DataSource:#68972595":"[jvm,can not find corresponding jvm service]","reference:com.manda.go.common.dal.dai.NewsManageDao:#739604181":"[jvm,can not find corresponding jvm service]","reference:com.manda.go.facade.NewsReadService:#739604181":"[jvm,passed]","service:com.manda.go.facade.NewsWriteService":"[jvm,passed]","reference:com.manda.go.facade.NewsWriteService:#739604181":"[jvm,passed]","Spring:go-biz-shared":"passed","service:com.manda.go.facade.NewsReadService":"[jvm,passed]"}; strict mode:true
+2021-03-14 15:14:51,414 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
+2021-03-14 15:14:51,415 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
+2021-03-14 15:14:51,417 ERROR main                             - HealthIndicator[sofaModuleHealthIndicator] readiness check fail; the status is: DOWN; the detail is: {"go-biz-shared":"passed","go-common-dal":"failed","go-biz-service-impl":"failed"}.
+2021-03-14 15:14:51,417 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2021-03-14 15:14:51,591 INFO  main                             - HealthIndicator[dbHealthIndicator] readiness check success.
+2021-03-14 15:14:51,591 ERROR main                             - SOFABoot HealthIndicator readiness check result: failed.
+2021-03-14 15:14:51,591 ERROR main                             - Readiness check result: fail
+2021-03-14 15:19:38,357 INFO  main                             - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2021-03-14 15:19:38,358 INFO  main                             - Found 5 HealthIndicator implementation:sofaModuleHealthIndicator,sofaBootHealthIndicator,multiApplicationHealthIndicator,diskSpaceHealthIndicator,dbHealthIndicator
+2021-03-14 15:19:38,358 INFO  main                             - Found 0 ReadinessCheckCallback implementation: 
+2021-03-14 15:19:38,358 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2021-03-14 15:19:38,359 INFO  main                             - HealthChecker[sofaModuleHealthChecker] readiness check fail with 0 retry.
+2021-03-14 15:19:38,369 ERROR main                             - HealthChecker[sofaModuleHealthChecker] readiness check fail with 0 retry; fail details:{"go-biz-shared":"passed","go-common-dal":"passed","go-biz-service-impl":"failed"}; strict mode:true
+2021-03-14 15:19:38,370 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 0 retry.
+2021-03-14 15:19:39,375 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 1 retry.
+2021-03-14 15:19:40,376 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 2 retry.
+2021-03-14 15:19:41,382 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 3 retry.
+2021-03-14 15:19:42,386 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 4 retry.
+2021-03-14 15:19:43,392 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 5 retry.
+2021-03-14 15:19:44,395 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 6 retry.
+2021-03-14 15:19:45,399 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 7 retry.
+2021-03-14 15:19:46,405 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 8 retry.
+2021-03-14 15:19:47,406 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 9 retry.
+2021-03-14 15:19:48,409 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 10 retry.
+2021-03-14 15:19:49,413 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 11 retry.
+2021-03-14 15:19:50,418 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 12 retry.
+2021-03-14 15:19:51,418 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 13 retry.
+2021-03-14 15:19:52,423 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 14 retry.
+2021-03-14 15:19:53,428 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 15 retry.
+2021-03-14 15:19:54,434 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 16 retry.
+2021-03-14 15:19:55,439 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 17 retry.
+2021-03-14 15:19:56,444 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 18 retry.
+2021-03-14 15:19:57,445 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 19 retry.
+2021-03-14 15:19:58,450 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"reference:javax.sql.DataSource:#1222696241":"[jvm,can not find corresponding jvm service]","service:com.manda.go.common.dal.dai.MissionManageDAO":"[jvm,passed]","reference:com.manda.go.facade.NewsReadService:#739604181":"[jvm,passed]","service:com.manda.go.facade.NewsWriteService":"[jvm,passed]","reference:com.manda.go.common.dal.dai.NewsManageDao:#739604181":"[jvm,passed]","reference:com.manda.go.facade.NewsWriteService:#739604181":"[jvm,passed]","Spring:go-biz-shared":"passed","Spring:go-common-dal":"passed","service:com.manda.go.facade.NewsReadService":"[jvm,passed]","service:com.manda.go.common.dal.dai.NewsManageDao":"[jvm,passed]"}; strict mode:true
+2021-03-14 15:19:58,450 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
+2021-03-14 15:19:58,451 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
+2021-03-14 15:19:58,453 ERROR main                             - HealthIndicator[sofaModuleHealthIndicator] readiness check fail; the status is: DOWN; the detail is: {"go-biz-shared":"passed","go-common-dal":"passed","go-biz-service-impl":"failed"}.
+2021-03-14 15:19:58,454 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2021-03-14 15:19:58,628 INFO  main                             - HealthIndicator[dbHealthIndicator] readiness check success.
+2021-03-14 15:19:58,628 ERROR main                             - SOFABoot HealthIndicator readiness check result: failed.
+2021-03-14 15:19:58,629 ERROR main                             - Readiness check result: fail
+2021-03-14 15:20:33,674 INFO  main                             - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2021-03-14 15:20:33,675 INFO  main                             - Found 5 HealthIndicator implementation:sofaModuleHealthIndicator,sofaBootHealthIndicator,multiApplicationHealthIndicator,diskSpaceHealthIndicator,dbHealthIndicator
+2021-03-14 15:20:33,676 INFO  main                             - Found 0 ReadinessCheckCallback implementation: 
+2021-03-14 15:20:33,676 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2021-03-14 15:20:33,677 INFO  main                             - HealthChecker[sofaModuleHealthChecker] readiness check fail with 0 retry.
+2021-03-14 15:20:33,687 ERROR main                             - HealthChecker[sofaModuleHealthChecker] readiness check fail with 0 retry; fail details:{"go-biz-shared":"passed","go-common-dal":"passed","go-biz-service-impl":"failed"}; strict mode:true
+2021-03-14 15:20:33,689 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 0 retry.
+2021-03-14 15:20:34,694 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 1 retry.
+2021-03-14 15:20:35,696 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 2 retry.
+2021-03-14 15:20:36,700 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 3 retry.
+2021-03-14 15:20:37,702 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 4 retry.
+2021-03-14 15:20:38,708 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 5 retry.
+2021-03-14 15:20:39,709 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 6 retry.
+2021-03-14 15:20:40,712 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 7 retry.
+2021-03-14 15:20:41,717 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 8 retry.
+2021-03-14 15:20:42,723 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 9 retry.
+2021-03-14 15:20:43,737 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 10 retry.
+2021-03-14 15:20:44,741 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 11 retry.
+2021-03-14 15:20:45,746 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 12 retry.
+2021-03-14 15:20:46,752 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 13 retry.
+2021-03-14 15:20:47,758 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 14 retry.
+2021-03-14 15:20:48,762 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 15 retry.
+2021-03-14 15:20:49,768 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 16 retry.
+2021-03-14 15:20:50,771 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 17 retry.
+2021-03-14 15:20:51,776 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 18 retry.
+2021-03-14 15:20:52,782 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 19 retry.
+2021-03-14 15:20:53,788 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"reference:javax.sql.DataSource:#534455804":"[jvm,can not find corresponding jvm service]","reference:com.manda.go.facade.NewsWriteService:#739604181":"[jvm,can not find corresponding jvm service]","service:com.manda.go.common.dal.dai.MissionManageDAO":"[jvm,passed]","reference:com.manda.go.facade.NewsReadService:#739604181":"[jvm,passed]","reference:com.manda.go.common.dal.dai.NewsManageDao:#739604181":"[jvm,passed]","Spring:go-biz-shared":"passed","Spring:go-common-dal":"passed","service:com.manda.go.facade.NewsReadService":"[jvm,passed]","service:com.manda.go.common.dal.dai.NewsManageDao":"[jvm,passed]"}; strict mode:true
+2021-03-14 15:20:53,789 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
+2021-03-14 15:20:53,790 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
+2021-03-14 15:20:53,792 ERROR main                             - HealthIndicator[sofaModuleHealthIndicator] readiness check fail; the status is: DOWN; the detail is: {"go-biz-shared":"passed","go-common-dal":"passed","go-biz-service-impl":"failed"}.
+2021-03-14 15:20:53,793 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2021-03-14 15:20:53,956 INFO  main                             - HealthIndicator[dbHealthIndicator] readiness check success.
+2021-03-14 15:20:53,956 ERROR main                             - SOFABoot HealthIndicator readiness check result: failed.
+2021-03-14 15:20:53,956 ERROR main                             - Readiness check result: fail
+2021-03-14 15:23:16,678 INFO  main                             - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2021-03-14 15:23:16,680 INFO  main                             - Found 5 HealthIndicator implementation:sofaModuleHealthIndicator,sofaBootHealthIndicator,multiApplicationHealthIndicator,diskSpaceHealthIndicator,dbHealthIndicator
+2021-03-14 15:23:16,681 INFO  main                             - Found 0 ReadinessCheckCallback implementation: 
+2021-03-14 15:23:16,681 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2021-03-14 15:23:16,682 INFO  main                             - HealthChecker[sofaModuleHealthChecker] readiness check fail with 0 retry.
+2021-03-14 15:23:16,693 ERROR main                             - HealthChecker[sofaModuleHealthChecker] readiness check fail with 0 retry; fail details:{"go-common-dal":"passed","go-biz-shared":"passed","go-biz-service-impl":"failed"}; strict mode:true
+2021-03-14 15:23:16,695 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 0 retry.
+2021-03-14 15:23:17,700 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 1 retry.
+2021-03-14 15:23:18,703 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 2 retry.
+2021-03-14 15:23:19,703 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 3 retry.
+2021-03-14 15:23:20,707 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 4 retry.
+2021-03-14 15:23:21,713 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 5 retry.
+2021-03-14 15:23:22,718 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 6 retry.
+2021-03-14 15:23:23,724 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 7 retry.
+2021-03-14 15:23:24,730 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 8 retry.
+2021-03-14 15:23:25,735 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 9 retry.
+2021-03-14 15:23:26,742 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 10 retry.
+2021-03-14 15:23:27,746 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 11 retry.
+2021-03-14 15:23:28,748 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 12 retry.
+2021-03-14 15:23:29,749 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 13 retry.
+2021-03-14 15:23:30,754 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 14 retry.
+2021-03-14 15:23:31,760 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 15 retry.
+2021-03-14 15:23:32,766 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 16 retry.
+2021-03-14 15:23:33,771 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 17 retry.
+2021-03-14 15:23:34,777 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 18 retry.
+2021-03-14 15:23:35,780 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 19 retry.
+2021-03-14 15:23:36,783 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"reference:com.manda.go.facade.NewsWriteService:#739604181":"[jvm,can not find corresponding jvm service]","reference:javax.sql.DataSource:#1505580596":"[jvm,can not find corresponding jvm service]","service:com.manda.go.common.dal.dai.MissionManageDAO":"[jvm,passed]","reference:com.manda.go.facade.NewsReadService:#739604181":"[jvm,passed]","reference:com.manda.go.common.dal.dai.NewsManageDao:#739604181":"[jvm,passed]","Spring:go-biz-shared":"passed","Spring:go-common-dal":"passed","service:com.manda.go.facade.NewsReadService":"[jvm,passed]","service:com.manda.go.common.dal.dai.NewsManageDao":"[jvm,passed]"}; strict mode:true
+2021-03-14 15:23:36,785 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
+2021-03-14 15:23:36,786 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
+2021-03-14 15:23:36,788 ERROR main                             - HealthIndicator[sofaModuleHealthIndicator] readiness check fail; the status is: DOWN; the detail is: {"go-common-dal":"passed","go-biz-shared":"passed","go-biz-service-impl":"failed"}.
+2021-03-14 15:23:36,789 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2021-03-14 15:23:36,963 INFO  main                             - HealthIndicator[dbHealthIndicator] readiness check success.
+2021-03-14 15:23:36,964 ERROR main                             - SOFABoot HealthIndicator readiness check result: failed.
+2021-03-14 15:23:36,964 ERROR main                             - Readiness check result: fail
+2021-03-14 15:36:46,248 INFO  main                             - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2021-03-14 15:36:46,250 INFO  main                             - Found 5 HealthIndicator implementation:sofaModuleHealthIndicator,sofaBootHealthIndicator,multiApplicationHealthIndicator,diskSpaceHealthIndicator,dbHealthIndicator
+2021-03-14 15:36:46,251 INFO  main                             - Found 0 ReadinessCheckCallback implementation: 
+2021-03-14 15:36:46,251 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2021-03-14 15:36:46,252 INFO  main                             - HealthChecker[sofaModuleHealthChecker] readiness check fail with 0 retry.
+2021-03-14 15:36:46,264 ERROR main                             - HealthChecker[sofaModuleHealthChecker] readiness check fail with 0 retry; fail details:{"go-biz-shared":"passed","go-common-dal":"failed","go-biz-service-impl":"failed"}; strict mode:true
+2021-03-14 15:36:46,266 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 0 retry.
+2021-03-14 15:36:47,271 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 1 retry.
+2021-03-14 15:36:48,273 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 2 retry.
+2021-03-14 15:36:49,273 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 3 retry.
+2021-03-14 15:36:50,274 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 4 retry.
+2021-03-14 15:36:51,279 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 5 retry.
+2021-03-14 15:36:52,285 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 6 retry.
+2021-03-14 15:36:53,290 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 7 retry.
+2021-03-14 15:36:54,296 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 8 retry.
+2021-03-14 15:36:55,297 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 9 retry.
+2021-03-14 15:36:56,300 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 10 retry.
+2021-03-14 15:36:57,306 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 11 retry.
+2021-03-14 15:36:58,311 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 12 retry.
+2021-03-14 15:36:59,315 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 13 retry.
+2021-03-14 15:37:00,318 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 14 retry.
+2021-03-14 15:37:01,320 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 15 retry.
+2021-03-14 15:37:02,324 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 16 retry.
+2021-03-14 15:37:03,328 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 17 retry.
+2021-03-14 15:37:04,334 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 18 retry.
+2021-03-14 15:37:05,335 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 19 retry.
+2021-03-14 15:37:06,341 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"reference:javax.sql.DataSource:#324113848":"[jvm,can not find corresponding jvm service]","reference:com.manda.go.common.dal.dai.NewsManageDao:#739604181":"[jvm,can not find corresponding jvm service]","reference:com.manda.go.facade.NewsWriteService:#739604181":"[jvm,can not find corresponding jvm service]","reference:com.manda.go.facade.NewsReadService:#739604181":"[jvm,passed]","Spring:go-biz-shared":"passed","service:com.manda.go.facade.NewsReadService":"[jvm,passed]"}; strict mode:true
+2021-03-14 15:37:06,341 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
+2021-03-14 15:37:06,343 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
+2021-03-14 15:37:06,344 ERROR main                             - HealthIndicator[sofaModuleHealthIndicator] readiness check fail; the status is: DOWN; the detail is: {"go-biz-shared":"passed","go-common-dal":"failed","go-biz-service-impl":"failed"}.
+2021-03-14 15:37:06,345 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2021-03-14 15:37:06,534 INFO  main                             - HealthIndicator[dbHealthIndicator] readiness check success.
+2021-03-14 15:37:06,534 ERROR main                             - SOFABoot HealthIndicator readiness check result: failed.
+2021-03-14 15:37:06,534 ERROR main                             - Readiness check result: fail
+2021-03-14 15:41:04,050 INFO  main                             - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2021-03-14 15:41:04,051 INFO  main                             - Found 5 HealthIndicator implementation:sofaModuleHealthIndicator,sofaBootHealthIndicator,multiApplicationHealthIndicator,diskSpaceHealthIndicator,dbHealthIndicator
+2021-03-14 15:41:04,052 INFO  main                             - Found 0 ReadinessCheckCallback implementation: 
+2021-03-14 15:41:04,052 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2021-03-14 15:41:04,053 INFO  main                             - HealthChecker[sofaModuleHealthChecker] readiness check fail with 0 retry.
+2021-03-14 15:41:04,063 ERROR main                             - HealthChecker[sofaModuleHealthChecker] readiness check fail with 0 retry; fail details:{"go-biz-shared":"passed","go-common-dal":"failed","go-biz-service-impl":"failed"}; strict mode:true
+2021-03-14 15:41:04,065 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 0 retry.
+2021-03-14 15:41:05,067 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 1 retry.
+2021-03-14 15:41:06,072 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 2 retry.
+2021-03-14 15:41:07,077 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 3 retry.
+2021-03-14 15:41:08,083 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 4 retry.
+2021-03-14 15:41:09,089 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 5 retry.
+2021-03-14 15:41:10,089 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 6 retry.
+2021-03-14 15:41:11,091 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 7 retry.
+2021-03-14 15:41:12,096 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 8 retry.
+2021-03-14 15:41:13,102 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 9 retry.
+2021-03-14 15:41:14,108 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 10 retry.
+2021-03-14 15:41:15,114 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 11 retry.
+2021-03-14 15:41:16,119 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 12 retry.
+2021-03-14 15:41:17,122 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 13 retry.
+2021-03-14 15:41:18,130 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 14 retry.
+2021-03-14 15:41:19,138 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 15 retry.
+2021-03-14 15:41:20,141 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 16 retry.
+2021-03-14 15:41:21,145 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 17 retry.
+2021-03-14 15:41:22,152 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 18 retry.
+2021-03-14 15:41:23,159 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 19 retry.
+2021-03-14 15:41:24,166 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"reference:com.manda.go.common.dal.dai.NewsManageDao:#739604181":"[jvm,can not find corresponding jvm service]","reference:javax.sql.DataSource:#817566317":"[jvm,can not find corresponding jvm service]","reference:com.manda.go.facade.NewsReadService:#739604181":"[jvm,passed]","service:com.manda.go.facade.NewsWriteService":"[jvm,passed]","reference:com.manda.go.facade.NewsWriteService:#739604181":"[jvm,passed]","Spring:go-biz-shared":"passed","service:com.manda.go.facade.NewsReadService":"[jvm,passed]"}; strict mode:true
+2021-03-14 15:41:24,168 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
+2021-03-14 15:41:24,170 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
+2021-03-14 15:41:24,171 ERROR main                             - HealthIndicator[sofaModuleHealthIndicator] readiness check fail; the status is: DOWN; the detail is: {"go-biz-shared":"passed","go-common-dal":"failed","go-biz-service-impl":"failed"}.
+2021-03-14 15:41:24,172 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2021-03-14 15:41:24,355 INFO  main                             - HealthIndicator[dbHealthIndicator] readiness check success.
+2021-03-14 15:41:24,355 ERROR main                             - SOFABoot HealthIndicator readiness check result: failed.
+2021-03-14 15:41:24,355 ERROR main                             - Readiness check result: fail
+2021-03-14 15:42:48,223 INFO  main                             - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2021-03-14 15:42:48,225 INFO  main                             - Found 5 HealthIndicator implementation:sofaModuleHealthIndicator,sofaBootHealthIndicator,multiApplicationHealthIndicator,diskSpaceHealthIndicator,dbHealthIndicator
+2021-03-14 15:42:48,225 INFO  main                             - Found 0 ReadinessCheckCallback implementation: 
+2021-03-14 15:42:48,225 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2021-03-14 15:42:48,227 INFO  main                             - HealthChecker[sofaModuleHealthChecker] readiness check fail with 0 retry.
+2021-03-14 15:42:48,237 ERROR main                             - HealthChecker[sofaModuleHealthChecker] readiness check fail with 0 retry; fail details:{"go-biz-shared":"passed","go-biz-service-impl":"passed","go-common-dal":"failed"}; strict mode:true
+2021-03-14 15:42:48,238 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 0 retry.
+2021-03-14 15:42:49,244 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 1 retry.
+2021-03-14 15:42:50,248 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 2 retry.
+2021-03-14 15:42:51,250 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 3 retry.
+2021-03-14 15:42:52,255 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 4 retry.
+2021-03-14 15:42:53,260 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 5 retry.
+2021-03-14 15:42:54,266 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 6 retry.
+2021-03-14 15:42:55,266 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 7 retry.
+2021-03-14 15:42:56,267 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 8 retry.
+2021-03-14 15:42:57,271 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 9 retry.
+2021-03-14 15:42:58,275 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 10 retry.
+2021-03-14 15:42:59,276 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 11 retry.
+2021-03-14 15:43:00,278 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 12 retry.
+2021-03-14 15:43:01,288 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 13 retry.
+2021-03-14 15:43:02,290 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 14 retry.
+2021-03-14 15:43:03,293 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 15 retry.
+2021-03-14 15:43:04,295 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 16 retry.
+2021-03-14 15:43:05,298 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 17 retry.
+2021-03-14 15:43:06,299 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 18 retry.
+2021-03-14 15:43:07,302 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 19 retry.
+2021-03-14 15:43:08,305 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"reference:com.manda.go.common.dal.dai.NewsManageDao:#739604181":"[jvm,can not find corresponding jvm service]","reference:javax.sql.DataSource:#1322665124":"[jvm,can not find corresponding jvm service]","reference:com.manda.go.facade.NewsReadService:#739604181":"[jvm,passed]","service:com.manda.go.facade.NewsWriteService":"[jvm,passed]","reference:com.manda.go.facade.NewsWriteService:#739604181":"[jvm,passed]","Spring:go-biz-shared":"passed","service:com.manda.go.facade.NewsReadService":"[jvm,passed]","Spring:go-biz-service-impl":"passed"}; strict mode:true
+2021-03-14 15:43:08,306 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
+2021-03-14 15:43:08,307 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
+2021-03-14 15:43:08,309 ERROR main                             - HealthIndicator[sofaModuleHealthIndicator] readiness check fail; the status is: DOWN; the detail is: {"go-biz-shared":"passed","go-biz-service-impl":"passed","go-common-dal":"failed"}.
+2021-03-14 15:43:08,309 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2021-03-14 15:43:08,490 INFO  main                             - HealthIndicator[dbHealthIndicator] readiness check success.
+2021-03-14 15:43:08,490 ERROR main                             - SOFABoot HealthIndicator readiness check result: failed.
+2021-03-14 15:43:08,490 ERROR main                             - Readiness check result: fail
+2021-03-14 15:45:19,995 INFO  main                             - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2021-03-14 15:45:19,996 INFO  main                             - Found 5 HealthIndicator implementation:sofaModuleHealthIndicator,sofaBootHealthIndicator,multiApplicationHealthIndicator,diskSpaceHealthIndicator,dbHealthIndicator
+2021-03-14 15:45:19,996 INFO  main                             - Found 0 ReadinessCheckCallback implementation: 
+2021-03-14 15:45:19,997 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2021-03-14 15:45:19,998 INFO  main                             - HealthChecker[sofaModuleHealthChecker] readiness check fail with 0 retry.
+2021-03-14 15:45:20,008 ERROR main                             - HealthChecker[sofaModuleHealthChecker] readiness check fail with 0 retry; fail details:{"go-common-dal":"passed","go-biz-shared":"passed","go-biz-service-impl":"failed"}; strict mode:true
+2021-03-14 15:45:20,009 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 0 retry.
+2021-03-14 15:45:21,010 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 1 retry.
+2021-03-14 15:45:22,014 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 2 retry.
+2021-03-14 15:45:23,016 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 3 retry.
+2021-03-14 15:45:24,016 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 4 retry.
+2021-03-14 15:45:25,017 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 5 retry.
+2021-03-14 15:45:26,019 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 6 retry.
+2021-03-14 15:45:27,024 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 7 retry.
+2021-03-14 15:45:28,029 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 8 retry.
+2021-03-14 15:45:29,035 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 9 retry.
+2021-03-14 15:45:30,039 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 10 retry.
+2021-03-14 15:45:31,040 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 11 retry.
+2021-03-14 15:45:32,041 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 12 retry.
+2021-03-14 15:45:33,044 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 13 retry.
+2021-03-14 15:45:34,044 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 14 retry.
+2021-03-14 15:45:35,050 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 15 retry.
+2021-03-14 15:45:36,055 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 16 retry.
+2021-03-14 15:45:37,055 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 17 retry.
+2021-03-14 15:45:38,059 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 18 retry.
+2021-03-14 15:45:39,063 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 19 retry.
+2021-03-14 15:45:40,067 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"reference:com.manda.go.facade.NewsWriteService:#739604181":"[jvm,can not find corresponding jvm service]","reference:javax.sql.DataSource:#630748340":"[jvm,can not find corresponding jvm service]","reference:com.manda.go.facade.NewsReadService:#739604181":"[jvm,passed]","reference:com.manda.go.common.dal.dai.NewsManageDao:#739604181":"[jvm,passed]","Spring:go-biz-shared":"passed","Spring:go-common-dal":"passed","service:com.manda.go.facade.NewsReadService":"[jvm,passed]","service:com.manda.go.common.dal.dai.NewsManageDao":"[jvm,passed]"}; strict mode:true
+2021-03-14 15:45:40,067 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
+2021-03-14 15:45:40,068 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
+2021-03-14 15:45:40,070 ERROR main                             - HealthIndicator[sofaModuleHealthIndicator] readiness check fail; the status is: DOWN; the detail is: {"go-common-dal":"passed","go-biz-shared":"passed","go-biz-service-impl":"failed"}.
+2021-03-14 15:45:40,071 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2021-03-14 15:45:40,292 INFO  main                             - HealthIndicator[dbHealthIndicator] readiness check success.
+2021-03-14 15:45:40,292 ERROR main                             - SOFABoot HealthIndicator readiness check result: failed.
+2021-03-14 15:45:40,292 ERROR main                             - Readiness check result: fail
+2021-03-14 15:47:54,737 INFO  main                             - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2021-03-14 15:47:54,738 INFO  main                             - Found 5 HealthIndicator implementation:sofaModuleHealthIndicator,sofaBootHealthIndicator,multiApplicationHealthIndicator,diskSpaceHealthIndicator,dbHealthIndicator
+2021-03-14 15:47:54,739 INFO  main                             - Found 0 ReadinessCheckCallback implementation: 
+2021-03-14 15:47:54,739 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2021-03-14 15:47:54,740 INFO  main                             - HealthChecker[sofaModuleHealthChecker] readiness check fail with 0 retry.
+2021-03-14 15:47:54,749 ERROR main                             - HealthChecker[sofaModuleHealthChecker] readiness check fail with 0 retry; fail details:{"go-biz-shared":"passed","go-biz-service-impl":"passed","go-common-dal":"failed"}; strict mode:true
+2021-03-14 15:47:54,753 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 0 retry.
+2021-03-14 15:47:55,758 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 1 retry.
+2021-03-14 15:47:56,765 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 2 retry.
+2021-03-14 15:47:57,768 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 3 retry.
+2021-03-14 15:47:58,770 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 4 retry.
+2021-03-14 15:47:59,771 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 5 retry.
+2021-03-14 15:48:00,773 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 6 retry.
+2021-03-14 15:48:01,775 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 7 retry.
+2021-03-14 15:48:02,778 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 8 retry.
+2021-03-14 15:48:03,779 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 9 retry.
+2021-03-14 15:48:04,783 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 10 retry.
+2021-03-14 15:48:05,788 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 11 retry.
+2021-03-14 15:48:06,792 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 12 retry.
+2021-03-14 15:48:07,795 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 13 retry.
+2021-03-14 15:48:08,797 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 14 retry.
+2021-03-14 15:48:09,803 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 15 retry.
+2021-03-14 15:48:10,808 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 16 retry.
+2021-03-14 15:48:11,809 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 17 retry.
+2021-03-14 15:48:12,812 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 18 retry.
+2021-03-14 15:48:13,817 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 19 retry.
+2021-03-14 15:48:14,821 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"reference:com.manda.go.common.dal.dai.NewsManageDao:#739604181":"[jvm,can not find corresponding jvm service]","reference:javax.sql.DataSource:#874295400":"[jvm,can not find corresponding jvm service]","reference:com.manda.go.facade.NewsReadService:#739604181":"[jvm,passed]","service:com.manda.go.facade.NewsWriteService":"[jvm,passed]","reference:com.manda.go.facade.NewsWriteService:#739604181":"[jvm,passed]","Spring:go-biz-shared":"passed","service:com.manda.go.facade.NewsReadService":"[jvm,passed]","Spring:go-biz-service-impl":"passed"}; strict mode:true
+2021-03-14 15:48:14,822 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
+2021-03-14 15:48:14,823 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
+2021-03-14 15:48:14,824 ERROR main                             - HealthIndicator[sofaModuleHealthIndicator] readiness check fail; the status is: DOWN; the detail is: {"go-biz-shared":"passed","go-biz-service-impl":"passed","go-common-dal":"failed"}.
+2021-03-14 15:48:14,825 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2021-03-14 15:48:14,998 INFO  main                             - HealthIndicator[dbHealthIndicator] readiness check success.
+2021-03-14 15:48:14,998 ERROR main                             - SOFABoot HealthIndicator readiness check result: failed.
+2021-03-14 15:48:14,998 ERROR main                             - Readiness check result: fail
+2021-03-14 15:52:03,190 INFO  main                             - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2021-03-14 15:52:03,191 INFO  main                             - Found 5 HealthIndicator implementation:sofaModuleHealthIndicator,sofaBootHealthIndicator,multiApplicationHealthIndicator,diskSpaceHealthIndicator,dbHealthIndicator
+2021-03-14 15:52:03,191 INFO  main                             - Found 0 ReadinessCheckCallback implementation: 
+2021-03-14 15:52:03,192 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2021-03-14 15:52:03,193 INFO  main                             - HealthChecker[sofaModuleHealthChecker] readiness check success with 0 retry.
+2021-03-14 15:52:03,195 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 0 retry.
+2021-03-14 15:52:04,197 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 1 retry.
+2021-03-14 15:52:05,201 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 2 retry.
+2021-03-14 15:52:06,202 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 3 retry.
+2021-03-14 15:52:07,202 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 4 retry.
+2021-03-14 15:52:08,203 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 5 retry.
+2021-03-14 15:52:09,209 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 6 retry.
+2021-03-14 15:52:10,215 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 7 retry.
+2021-03-14 15:52:11,218 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 8 retry.
+2021-03-14 15:52:12,220 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 9 retry.
+2021-03-14 15:52:13,223 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 10 retry.
+2021-03-14 15:52:14,228 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 11 retry.
+2021-03-14 15:52:15,234 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 12 retry.
+2021-03-14 15:52:16,236 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 13 retry.
+2021-03-14 15:52:17,236 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 14 retry.
+2021-03-14 15:52:18,237 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 15 retry.
+2021-03-14 15:52:19,239 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 16 retry.
+2021-03-14 15:52:20,244 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 17 retry.
+2021-03-14 15:52:21,250 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 18 retry.
+2021-03-14 15:52:22,255 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 19 retry.
+2021-03-14 15:52:23,280 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"reference:javax.sql.DataSource:#895365502":"[jvm,can not find corresponding jvm service]","reference:com.manda.go.facade.NewsReadService:#739604181":"[jvm,passed]","service:com.manda.go.facade.NewsWriteService":"[jvm,passed]","reference:com.manda.go.common.dal.dai.NewsManageDao:#739604181":"[jvm,passed]","reference:com.manda.go.facade.NewsWriteService:#739604181":"[jvm,passed]","Spring:go-biz-shared":"passed","Spring:go-common-dal":"passed","service:com.manda.go.facade.NewsReadService":"[jvm,passed]","service:com.manda.go.common.dal.dai.NewsManageDao":"[jvm,passed]","Spring:go-biz-service-impl":"passed"}; strict mode:true
+2021-03-14 15:52:23,281 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
+2021-03-14 15:52:23,282 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
+2021-03-14 15:52:23,285 INFO  main                             - HealthIndicator[sofaModuleHealthIndicator] readiness check success.
+2021-03-14 15:52:23,286 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2021-03-14 15:52:23,664 INFO  main                             - HealthIndicator[dbHealthIndicator] readiness check success.
+2021-03-14 15:52:23,664 INFO  main                             - SOFABoot HealthIndicator readiness check result: success.
+2021-03-14 15:52:23,664 ERROR main                             - Readiness check result: fail
+2021-03-14 15:53:11,034 INFO  main                             - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2021-03-14 15:53:11,035 INFO  main                             - Found 5 HealthIndicator implementation:sofaModuleHealthIndicator,sofaBootHealthIndicator,multiApplicationHealthIndicator,diskSpaceHealthIndicator,dbHealthIndicator
+2021-03-14 15:53:11,036 INFO  main                             - Found 0 ReadinessCheckCallback implementation: 
+2021-03-14 15:53:11,037 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2021-03-14 15:53:11,038 INFO  main                             - HealthChecker[sofaModuleHealthChecker] readiness check success with 0 retry.
+2021-03-14 15:53:11,039 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 0 retry.
+2021-03-14 15:53:12,042 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 1 retry.
+2021-03-14 15:53:13,047 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 2 retry.
+2021-03-14 15:53:14,053 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 3 retry.
+2021-03-14 15:53:15,058 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 4 retry.
+2021-03-14 15:53:16,063 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 5 retry.
+2021-03-14 15:53:17,064 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 6 retry.
+2021-03-14 15:53:18,071 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 7 retry.
+2021-03-14 15:53:19,074 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 8 retry.
+2021-03-14 15:53:20,079 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 9 retry.
+2021-03-14 15:53:21,081 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 10 retry.
+2021-03-14 15:53:22,081 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 11 retry.
+2021-03-14 15:53:23,082 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 12 retry.
+2021-03-14 15:53:24,086 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 13 retry.
+2021-03-14 15:53:25,092 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 14 retry.
+2021-03-14 15:53:26,096 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 15 retry.
+2021-03-14 15:53:27,102 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 16 retry.
+2021-03-14 15:53:28,103 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 17 retry.
+2021-03-14 15:53:29,106 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 18 retry.
+2021-03-14 15:53:30,111 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 19 retry.
+2021-03-14 15:53:31,134 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"reference:javax.sql.DataSource:#1694178978":"[jvm,can not find corresponding jvm service]","reference:com.manda.go.facade.NewsReadService:#739604181":"[jvm,passed]","service:com.manda.go.facade.NewsWriteService":"[jvm,passed]","reference:com.manda.go.common.dal.dai.NewsManageDao:#739604181":"[jvm,passed]","reference:com.manda.go.facade.NewsWriteService:#739604181":"[jvm,passed]","Spring:go-biz-shared":"passed","Spring:go-common-dal":"passed","service:com.manda.go.facade.NewsReadService":"[jvm,passed]","service:com.manda.go.common.dal.dai.NewsManageDao":"[jvm,passed]","Spring:go-biz-service-impl":"passed"}; strict mode:true
+2021-03-14 15:53:31,135 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
+2021-03-14 15:53:31,135 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
+2021-03-14 15:53:31,136 INFO  main                             - HealthIndicator[sofaModuleHealthIndicator] readiness check success.
+2021-03-14 15:53:31,136 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2021-03-14 15:53:31,347 INFO  main                             - HealthIndicator[dbHealthIndicator] readiness check success.
+2021-03-14 15:53:31,347 INFO  main                             - SOFABoot HealthIndicator readiness check result: success.
+2021-03-14 15:53:31,347 ERROR main                             - Readiness check result: fail
+2021-03-14 15:55:30,316 INFO  main                             - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2021-03-14 15:55:30,318 INFO  main                             - Found 5 HealthIndicator implementation:sofaModuleHealthIndicator,sofaBootHealthIndicator,multiApplicationHealthIndicator,diskSpaceHealthIndicator,dbHealthIndicator
+2021-03-14 15:55:30,319 INFO  main                             - Found 0 ReadinessCheckCallback implementation: 
+2021-03-14 15:55:30,319 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2021-03-14 15:55:30,320 INFO  main                             - HealthChecker[sofaModuleHealthChecker] readiness check success with 0 retry.
+2021-03-14 15:55:30,322 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 0 retry.
+2021-03-14 15:55:31,323 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 1 retry.
+2021-03-14 15:55:32,326 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 2 retry.
+2021-03-14 15:55:33,326 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 3 retry.
+2021-03-14 15:55:34,331 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 4 retry.
+2021-03-14 15:55:35,332 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 5 retry.
+2021-03-14 15:55:36,334 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 6 retry.
+2021-03-14 15:55:37,337 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 7 retry.
+2021-03-14 15:55:38,338 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 8 retry.
+2021-03-14 15:55:39,340 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 9 retry.
+2021-03-14 15:55:40,344 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 10 retry.
+2021-03-14 15:55:41,346 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 11 retry.
+2021-03-14 15:55:42,348 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 12 retry.
+2021-03-14 15:55:43,349 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 13 retry.
+2021-03-14 15:55:44,355 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 14 retry.
+2021-03-14 15:55:45,359 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 15 retry.
+2021-03-14 15:55:46,365 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 16 retry.
+2021-03-14 15:55:47,371 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 17 retry.
+2021-03-14 15:55:48,376 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 18 retry.
+2021-03-14 15:55:49,382 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 19 retry.
+2021-03-14 15:55:50,404 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"reference:javax.sql.DataSource:#1136608987":"[jvm,can not find corresponding jvm service]","reference:com.manda.go.facade.NewsReadService:#739604181":"[jvm,passed]","service:com.manda.go.facade.NewsWriteService":"[jvm,passed]","reference:com.manda.go.common.dal.dai.NewsManageDao:#739604181":"[jvm,passed]","reference:com.manda.go.facade.NewsWriteService:#739604181":"[jvm,passed]","Spring:go-biz-shared":"passed","Spring:go-common-dal":"passed","service:com.manda.go.facade.NewsReadService":"[jvm,passed]","service:com.manda.go.common.dal.dai.NewsManageDao":"[jvm,passed]","Spring:go-biz-service-impl":"passed"}; strict mode:true
+2021-03-14 15:55:50,404 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
+2021-03-14 15:55:50,405 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
+2021-03-14 15:55:50,406 INFO  main                             - HealthIndicator[sofaModuleHealthIndicator] readiness check success.
+2021-03-14 15:55:50,406 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2021-03-14 15:55:50,584 INFO  main                             - HealthIndicator[dbHealthIndicator] readiness check success.
+2021-03-14 15:55:50,584 INFO  main                             - SOFABoot HealthIndicator readiness check result: success.
+2021-03-14 15:55:50,584 ERROR main                             - Readiness check result: fail
+2021-03-14 15:56:49,839 INFO  main                             - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2021-03-14 15:56:49,840 INFO  main                             - Found 5 HealthIndicator implementation:sofaModuleHealthIndicator,sofaBootHealthIndicator,multiApplicationHealthIndicator,diskSpaceHealthIndicator,dbHealthIndicator
+2021-03-14 15:56:49,841 INFO  main                             - Found 0 ReadinessCheckCallback implementation: 
+2021-03-14 15:56:49,841 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2021-03-14 15:56:49,842 INFO  main                             - HealthChecker[sofaModuleHealthChecker] readiness check success with 0 retry.
+2021-03-14 15:56:49,844 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 0 retry.
+2021-03-14 15:56:50,849 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 1 retry.
+2021-03-14 15:56:51,850 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 2 retry.
+2021-03-14 15:56:52,851 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 3 retry.
+2021-03-14 15:56:53,857 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 4 retry.
+2021-03-14 15:56:54,863 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 5 retry.
+2021-03-14 15:56:55,868 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 6 retry.
+2021-03-14 15:56:56,870 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 7 retry.
+2021-03-14 15:56:57,870 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 8 retry.
+2021-03-14 15:56:58,876 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 9 retry.
+2021-03-14 15:56:59,881 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 10 retry.
+2021-03-14 15:57:00,886 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 11 retry.
+2021-03-14 15:57:01,892 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 12 retry.
+2021-03-14 15:57:02,893 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 13 retry.
+2021-03-14 15:57:03,897 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 14 retry.
+2021-03-14 15:57:04,902 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 15 retry.
+2021-03-14 15:57:05,908 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 16 retry.
+2021-03-14 15:57:06,914 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 17 retry.
+2021-03-14 15:57:07,917 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 18 retry.
+2021-03-14 15:57:08,922 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 19 retry.
+2021-03-14 15:57:09,942 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"reference:javax.sql.DataSource:#1432793332":"[jvm,can not find corresponding jvm service]","reference:com.manda.go.facade.NewsReadService:#739604181":"[jvm,passed]","service:com.manda.go.facade.NewsWriteService":"[jvm,passed]","reference:com.manda.go.common.dal.dai.NewsManageDao:#739604181":"[jvm,passed]","reference:com.manda.go.facade.NewsWriteService:#739604181":"[jvm,passed]","Spring:go-biz-shared":"passed","Spring:go-common-dal":"passed","service:com.manda.go.facade.NewsReadService":"[jvm,passed]","service:com.manda.go.common.dal.dai.NewsManageDao":"[jvm,passed]","Spring:go-biz-service-impl":"passed"}; strict mode:true
+2021-03-14 15:57:09,942 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
+2021-03-14 15:57:09,943 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
+2021-03-14 15:57:09,943 INFO  main                             - HealthIndicator[sofaModuleHealthIndicator] readiness check success.
+2021-03-14 15:57:09,943 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2021-03-14 15:57:10,114 INFO  main                             - HealthIndicator[dbHealthIndicator] readiness check success.
+2021-03-14 15:57:10,114 INFO  main                             - SOFABoot HealthIndicator readiness check result: success.
+2021-03-14 15:57:10,114 ERROR main                             - Readiness check result: fail
+2021-03-14 15:59:09,033 INFO  main                             - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2021-03-14 15:59:09,034 INFO  main                             - Found 5 HealthIndicator implementation:sofaModuleHealthIndicator,sofaBootHealthIndicator,multiApplicationHealthIndicator,diskSpaceHealthIndicator,dbHealthIndicator
+2021-03-14 15:59:09,035 INFO  main                             - Found 0 ReadinessCheckCallback implementation: 
+2021-03-14 15:59:09,035 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2021-03-14 15:59:09,037 INFO  main                             - HealthChecker[sofaModuleHealthChecker] readiness check success with 0 retry.
+2021-03-14 15:59:09,038 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 0 retry.
+2021-03-14 15:59:10,040 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 1 retry.
+2021-03-14 15:59:11,045 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 2 retry.
+2021-03-14 15:59:12,050 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 3 retry.
+2021-03-14 15:59:13,055 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 4 retry.
+2021-03-14 15:59:14,061 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 5 retry.
+2021-03-14 15:59:15,067 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 6 retry.
+2021-03-14 15:59:16,072 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 7 retry.
+2021-03-14 15:59:17,077 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 8 retry.
+2021-03-14 15:59:18,082 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 9 retry.
+2021-03-14 15:59:19,088 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 10 retry.
+2021-03-14 15:59:20,093 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 11 retry.
+2021-03-14 15:59:21,097 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 12 retry.
+2021-03-14 15:59:22,103 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 13 retry.
+2021-03-14 15:59:23,107 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 14 retry.
+2021-03-14 15:59:24,111 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 15 retry.
+2021-03-14 15:59:25,112 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 16 retry.
+2021-03-14 15:59:26,114 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 17 retry.
+2021-03-14 15:59:27,117 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 18 retry.
+2021-03-14 15:59:28,121 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 19 retry.
+2021-03-14 15:59:29,143 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"reference:javax.sql.DataSource:#559171568":"[jvm,can not find corresponding jvm service]","reference:com.manda.go.facade.NewsReadService:#739604181":"[jvm,passed]","service:com.manda.go.facade.NewsWriteService":"[jvm,passed]","reference:com.manda.go.common.dal.dai.NewsManageDao:#739604181":"[jvm,passed]","reference:com.manda.go.facade.NewsWriteService:#739604181":"[jvm,passed]","Spring:go-biz-shared":"passed","Spring:go-common-dal":"passed","service:com.manda.go.facade.NewsReadService":"[jvm,passed]","service:com.manda.go.common.dal.dai.NewsManageDao":"[jvm,passed]","Spring:go-biz-service-impl":"passed"}; strict mode:true
+2021-03-14 15:59:29,143 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
+2021-03-14 15:59:29,143 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
+2021-03-14 15:59:29,144 INFO  main                             - HealthIndicator[sofaModuleHealthIndicator] readiness check success.
+2021-03-14 15:59:29,145 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2021-03-14 15:59:29,319 INFO  main                             - HealthIndicator[dbHealthIndicator] readiness check success.
+2021-03-14 15:59:29,319 INFO  main                             - SOFABoot HealthIndicator readiness check result: success.
+2021-03-14 15:59:29,319 ERROR main                             - Readiness check result: fail
+2021-03-14 16:01:37,230 INFO  main                             - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2021-03-14 16:01:37,231 INFO  main                             - Found 5 HealthIndicator implementation:sofaModuleHealthIndicator,sofaBootHealthIndicator,multiApplicationHealthIndicator,diskSpaceHealthIndicator,dbHealthIndicator
+2021-03-14 16:01:37,232 INFO  main                             - Found 0 ReadinessCheckCallback implementation: 
+2021-03-14 16:01:37,232 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2021-03-14 16:01:37,233 INFO  main                             - HealthChecker[sofaModuleHealthChecker] readiness check success with 0 retry.
+2021-03-14 16:01:37,234 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 0 retry.
+2021-03-14 16:01:38,240 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 1 retry.
+2021-03-14 16:01:39,245 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 2 retry.
+2021-03-14 16:01:40,251 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 3 retry.
+2021-03-14 16:01:41,256 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 4 retry.
+2021-03-14 16:01:42,259 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 5 retry.
+2021-03-14 16:01:43,260 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 6 retry.
+2021-03-14 16:01:44,266 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 7 retry.
+2021-03-14 16:01:45,270 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 8 retry.
+2021-03-14 16:01:46,272 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 9 retry.
+2021-03-14 16:01:47,278 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 10 retry.
+2021-03-14 16:01:48,282 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 11 retry.
+2021-03-14 16:01:49,288 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 12 retry.
+2021-03-14 16:01:50,294 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 13 retry.
+2021-03-14 16:01:51,298 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 14 retry.
+2021-03-14 16:01:52,299 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 15 retry.
+2021-03-14 16:01:53,305 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 16 retry.
+2021-03-14 16:01:54,310 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 17 retry.
+2021-03-14 16:01:55,313 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 18 retry.
+2021-03-14 16:01:56,317 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 19 retry.
+2021-03-14 16:01:57,346 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"reference:javax.sql.DataSource:#1202585083":"[jvm,can not find corresponding jvm service]","reference:com.manda.go.facade.NewsReadService:#739604181":"[jvm,passed]","service:com.manda.go.facade.NewsWriteService":"[jvm,passed]","reference:com.manda.go.common.dal.dai.NewsManageDao:#739604181":"[jvm,passed]","reference:com.manda.go.facade.NewsWriteService:#739604181":"[jvm,passed]","Spring:go-biz-shared":"passed","Spring:go-common-dal":"passed","service:com.manda.go.facade.NewsReadService":"[jvm,passed]","service:com.manda.go.common.dal.dai.NewsManageDao":"[jvm,passed]","Spring:go-biz-service-impl":"passed"}; strict mode:true
+2021-03-14 16:01:57,346 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
+2021-03-14 16:01:57,347 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
+2021-03-14 16:01:57,348 INFO  main                             - HealthIndicator[sofaModuleHealthIndicator] readiness check success.
+2021-03-14 16:01:57,349 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2021-03-14 16:01:57,619 INFO  main                             - HealthIndicator[dbHealthIndicator] readiness check success.
+2021-03-14 16:01:57,619 INFO  main                             - SOFABoot HealthIndicator readiness check result: success.
+2021-03-14 16:01:57,619 ERROR main                             - Readiness check result: fail
+2021-03-14 16:06:13,004 INFO  main                             - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2021-03-14 16:06:13,006 INFO  main                             - Found 5 HealthIndicator implementation:sofaModuleHealthIndicator,sofaBootHealthIndicator,multiApplicationHealthIndicator,diskSpaceHealthIndicator,dbHealthIndicator
+2021-03-14 16:06:13,007 INFO  main                             - Found 0 ReadinessCheckCallback implementation: 
+2021-03-14 16:06:13,007 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2021-03-14 16:06:13,008 INFO  main                             - HealthChecker[sofaModuleHealthChecker] readiness check success with 0 retry.
+2021-03-14 16:06:13,010 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 0 retry.
+2021-03-14 16:06:14,014 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 1 retry.
+2021-03-14 16:06:15,019 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 2 retry.
+2021-03-14 16:06:16,022 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 3 retry.
+2021-03-14 16:06:17,025 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 4 retry.
+2021-03-14 16:06:18,031 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 5 retry.
+2021-03-14 16:06:19,035 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 6 retry.
+2021-03-14 16:06:20,038 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 7 retry.
+2021-03-14 16:06:21,044 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 8 retry.
+2021-03-14 16:06:22,050 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 9 retry.
+2021-03-14 16:06:23,051 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 10 retry.
+2021-03-14 16:06:24,052 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 11 retry.
+2021-03-14 16:06:25,058 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 12 retry.
+2021-03-14 16:06:26,063 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 13 retry.
+2021-03-14 16:06:27,063 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 14 retry.
+2021-03-14 16:06:28,066 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 15 retry.
+2021-03-14 16:06:29,068 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 16 retry.
+2021-03-14 16:06:30,072 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 17 retry.
+2021-03-14 16:06:31,073 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 18 retry.
+2021-03-14 16:06:32,076 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 19 retry.
+2021-03-14 16:06:33,099 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"reference:javax.sql.DataSource:#895365502":"[jvm,can not find corresponding jvm service]","reference:com.manda.go.common.dal.dai.MissionManageDAO:#739604181":"[jvm,can not find corresponding jvm service]","reference:com.manda.go.facade.NewsReadService:#739604181":"[jvm,passed]","service:com.manda.go.facade.NewsWriteService":"[jvm,passed]","reference:com.manda.go.facade.NewsWriteService:#739604181":"[jvm,passed]","Spring:go-biz-shared":"passed","Spring:go-common-dal":"passed","service:com.manda.go.facade.NewsReadService":"[jvm,passed]","Spring:go-biz-service-impl":"passed"}; strict mode:true
+2021-03-14 16:06:33,101 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
+2021-03-14 16:06:33,101 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
+2021-03-14 16:06:33,102 INFO  main                             - HealthIndicator[sofaModuleHealthIndicator] readiness check success.
+2021-03-14 16:06:33,103 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2021-03-14 16:06:33,260 INFO  main                             - HealthIndicator[dbHealthIndicator] readiness check success.
+2021-03-14 16:06:33,260 INFO  main                             - SOFABoot HealthIndicator readiness check result: success.
+2021-03-14 16:06:33,260 ERROR main                             - Readiness check result: fail

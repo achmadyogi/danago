@@ -1,0 +1,105 @@
+2021-03-02 18:31:40,981 INFO  main                             - SOFABoot Runtime Starting!
+2021-03-02 18:31:43,018 INFO  main                             - Registering component: reference:javax.sql.DataSource:#862251972
+2021-03-02 18:31:43,020 INFO  main                             -  >>In Binding [jvm] Begins - javax.sql.DataSource.
+2021-03-02 18:31:43,023 INFO  main                             -  >>In Binding [jvm] Ends - javax.sql.DataSource.
+2021-03-02 18:31:43,024 INFO  main                             - Registering component: reference:com.manda.go.facade.NewsReadService:#739604181
+2021-03-02 18:31:43,024 INFO  main                             -  >>In Binding [jvm] Begins - com.manda.go.facade.NewsReadService.
+2021-03-02 18:31:43,025 INFO  main                             -  >>In Binding [jvm] Ends - com.manda.go.facade.NewsReadService.
+2021-03-02 18:31:43,025 INFO  main                             - Registering component: reference:com.manda.go.facade.NewsWriteService:#739604181
+2021-03-02 18:31:43,026 INFO  main                             -  >>In Binding [jvm] Begins - com.manda.go.facade.NewsWriteService.
+2021-03-02 18:31:43,027 INFO  main                             -  >>In Binding [jvm] Ends - com.manda.go.facade.NewsWriteService.
+2021-03-02 18:31:43,491 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of manda-go-parent Start +++++++++++++++++
+2021-03-02 18:31:43,497 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of manda-go-parent End +++++++++++++++++
+2021-03-02 18:31:43,497 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of manda-go-parent Start +++++++++++++++++
+2021-03-02 18:31:43,498 INFO  main                             - 
+All activated module list(3) >>>>>>>
+  ├─ go-biz-service-impl
+  ├─ go-biz-shared
+  └─ go-common-dal
+
+Modules that could install(3) >>>>>>>
+  ├─ go-biz-shared
+  ├─ go-common-dal
+  └─ go-biz-service-impl
+
+2021-03-02 18:31:43,501 INFO  main                             - Start install manda-go-parent's module: go-biz-shared
+2021-03-02 18:31:43,686 INFO  main                             - Start install manda-go-parent's module: go-common-dal
+2021-03-02 18:31:43,712 INFO  main                             - Start install manda-go-parent's module: go-biz-service-impl
+2021-03-02 18:31:43,756 INFO  sofa-module-start-go-biz-shared  - Begin refresh Spring Application Context of module go-biz-shared of application manda-go-parent.
+2021-03-02 18:31:43,756 INFO  sofa-module-start-go-common-dal  - Begin refresh Spring Application Context of module go-common-dal of application manda-go-parent.
+2021-03-02 18:31:43,777 INFO  sofa-module-start-go-biz-shared  - Registering component: reference:com.manda.go.common.dal.dai.NewsManageDao:#739604181
+2021-03-02 18:31:43,777 INFO  sofa-module-start-go-biz-shared  -  >>In Binding [jvm] Begins - com.manda.go.common.dal.dai.NewsManageDao.
+2021-03-02 18:31:43,779 INFO  sofa-module-start-go-biz-shared  -  >>In Binding [jvm] Ends - com.manda.go.common.dal.dai.NewsManageDao.
+2021-03-02 18:31:43,786 INFO  sofa-module-start-go-biz-shared  - Registering component: service:com.manda.go.facade.NewsReadService
+2021-03-02 18:31:43,786 INFO  sofa-module-start-go-biz-shared  -  <<PreOut Binding [jvm] Begins - com.manda.go.facade.NewsReadService.
+2021-03-02 18:31:43,786 INFO  sofa-module-start-go-biz-shared  -  <<PreOut Binding [jvm] Ends - com.manda.go.facade.NewsReadService.
+2021-03-02 18:31:43,786 INFO  sofa-module-start-go-biz-shared  -  <<Out Binding [jvm] Begins - com.manda.go.facade.NewsReadService.
+2021-03-02 18:31:43,786 INFO  sofa-module-start-go-biz-shared  -  <<Out Binding [jvm] Ends - com.manda.go.facade.NewsReadService.
+2021-03-02 18:31:43,786 INFO  sofa-module-start-go-biz-shared  - Register Service - com.manda.go.facade.NewsReadService
+2021-03-02 18:31:43,791 INFO  sofa-module-start-go-biz-shared  - Registering component: Spring:go-biz-shared
+2021-03-02 18:31:44,055 INFO  sofa-module-start-go-common-dal  - Registering component: service:javax.sql.DataSource
+2021-03-02 18:31:44,056 INFO  sofa-module-start-go-common-dal  -  <<PreOut Binding [jvm] Begins - javax.sql.DataSource.
+2021-03-02 18:31:44,056 INFO  sofa-module-start-go-common-dal  -  <<PreOut Binding [jvm] Ends - javax.sql.DataSource.
+2021-03-02 18:31:44,056 INFO  sofa-module-start-go-common-dal  -  <<Out Binding [jvm] Begins - javax.sql.DataSource.
+2021-03-02 18:31:44,056 INFO  sofa-module-start-go-common-dal  -  <<Out Binding [jvm] Ends - javax.sql.DataSource.
+2021-03-02 18:31:44,056 INFO  sofa-module-start-go-common-dal  - Register Service - javax.sql.DataSource
+2021-03-02 18:31:44,060 INFO  sofa-module-start-go-common-dal  - Registering component: service:com.manda.go.common.dal.dai.NewsManageDao
+2021-03-02 18:31:44,060 INFO  sofa-module-start-go-common-dal  -  <<PreOut Binding [jvm] Begins - com.manda.go.common.dal.dai.NewsManageDao.
+2021-03-02 18:31:44,060 INFO  sofa-module-start-go-common-dal  -  <<PreOut Binding [jvm] Ends - com.manda.go.common.dal.dai.NewsManageDao.
+2021-03-02 18:31:44,060 INFO  sofa-module-start-go-common-dal  -  <<Out Binding [jvm] Begins - com.manda.go.common.dal.dai.NewsManageDao.
+2021-03-02 18:31:44,060 INFO  sofa-module-start-go-common-dal  -  <<Out Binding [jvm] Ends - com.manda.go.common.dal.dai.NewsManageDao.
+2021-03-02 18:31:44,060 INFO  sofa-module-start-go-common-dal  - Register Service - com.manda.go.common.dal.dai.NewsManageDao
+2021-03-02 18:31:44,062 INFO  sofa-module-start-go-common-dal  - Registering component: Spring:go-common-dal
+2021-03-02 18:31:44,062 INFO  sofa-module-start-go-biz-service-impl - Begin refresh Spring Application Context of module go-biz-service-impl of application manda-go-parent.
+2021-03-02 18:31:44,080 INFO  sofa-module-start-go-biz-service-impl - Registering component: service:com.manda.go.facade.NewsWriteService
+2021-03-02 18:31:44,080 INFO  sofa-module-start-go-biz-service-impl -  <<PreOut Binding [jvm] Begins - com.manda.go.facade.NewsWriteService.
+2021-03-02 18:31:44,080 INFO  sofa-module-start-go-biz-service-impl -  <<PreOut Binding [jvm] Ends - com.manda.go.facade.NewsWriteService.
+2021-03-02 18:31:44,080 INFO  sofa-module-start-go-biz-service-impl -  <<Out Binding [jvm] Begins - com.manda.go.facade.NewsWriteService.
+2021-03-02 18:31:44,080 INFO  sofa-module-start-go-biz-service-impl -  <<Out Binding [jvm] Ends - com.manda.go.facade.NewsWriteService.
+2021-03-02 18:31:44,081 INFO  sofa-module-start-go-biz-service-impl - Register Service - com.manda.go.facade.NewsWriteService
+2021-03-02 18:31:44,086 ERROR sofa-module-start-go-biz-service-impl - Refreshing Spring Application Context of module go-biz-service-impl got an error.
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ServiceFactoryBean#com.manda.go.facade.HelloWorldGo': Invocation of init method failed; nested exception is com.alipay.sofa.runtime.api.ServiceRuntimeException: Can't find BindingConverter of type binding.bolt
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1771)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at com.alipay.sofa.isle.spring.factory.BeanLoadCostBeanFactory.createBean(BeanLoadCostBeanFactory.java:115)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:828)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at com.alipay.sofa.isle.stage.SpringContextInstallStage.doRefreshSpringContext(SpringContextInstallStage.java:289)
+	at com.alipay.sofa.isle.stage.SpringContextInstallStage$1.run(SpringContextInstallStage.java:252)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at com.alipay.sofa.common.thread.ExecutingRunnable.run(ExecutingRunnable.java:73)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: com.alipay.sofa.runtime.api.ServiceRuntimeException: Can't find BindingConverter of type binding.bolt
+	at com.alipay.sofa.runtime.spring.factory.AbstractContractFactoryBean.dealWithbindingConverterNotExist(AbstractContractFactoryBean.java:137)
+	at com.alipay.sofa.runtime.spring.factory.AbstractContractFactoryBean.parseBindings(AbstractContractFactoryBean.java:113)
+	at com.alipay.sofa.runtime.spring.factory.AbstractContractFactoryBean.afterPropertiesSet(AbstractContractFactoryBean.java:97)
+	at com.alipay.sofa.isle.spring.factory.BeanLoadCostBeanFactory.invokeInitMethods(BeanLoadCostBeanFactory.java:82)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1767)
+	... 18 common frames omitted
+2021-03-02 18:31:44,088 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of manda-go-parent End +++++++++++++++++
+2021-03-02 18:31:44,088 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of manda-go-parent Start +++++++++++++++++
+2021-03-02 18:31:44,090 INFO  main                             - 
+Spring context initialize success module list(2) >>>>>>> [totalTime = 339 ms, realTime = 305 ms]
+  ├─go-biz-shared [34 ms]
+  │   `---/Users/prakosoa/Documents/DANALearning/DANA-go/go/app/biz/shared/target/classes/META-INF/spring/biz-shared-service.xml
+  └─go-common-dal [305 ms]
+      `---/Users/prakosoa/Documents/DANALearning/DANA-go/go/app/common/dal/target/classes/META-INF/spring/common-dal.xml
+
+Spring context initialize failed module list(1) >>>>>>>
+  └─go-biz-service-impl
+
+Spring bean load time cost list(2) >>>>>>> [totalTime = 339 ms, realTime = 305 ms]
+  ├─[Module] go-biz-shared [34 ms]
+  └─[Module] go-common-dal [305 ms]
+      └─com.zaxxer.hikari.HikariDataSource (simpleDataSource)  [277ms]
+
+2021-03-02 18:31:44,090 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of manda-go-parent End +++++++++++++++++
