@@ -19,12 +19,22 @@ import com.manda.go.common.dal.dao.MissionDO;
  * @version $Id: MissionManageDAO.java, v 0.1 2021‐03‐14 15.02 Achmad Yogi Prakoso Exp $$
  */
 public interface MissionManageDAO {
-    String findById = "SELECT * FROM missions WHERE id = #{id}";
+    String findByLevel = "SELECT * FROM missions WHERE level = #{level}";
 
-    @Select(findById)
+    @Select(findByLevel)
     @Results(value = { @Result(property = "id", column = "id"),
-                       @Result(property = "productCode", column = "product_code") })
-    MissionDO findById(@Param("id") int id);
+                       @Result(property = "productCode", column = "product_code"),
+                       @Result(property = "title", column = "title"),
+                       @Result(property = "description", column = "description"),
+                       @Result(property = "category", column = "category"),
+                       @Result(property = "serviceUrl", column = "service_url"),
+                       @Result(property = "points", column = "points"),
+                       @Result(property = "transactionQuantity", column = "transaction_quantity"),
+                       @Result(property = "transactionMinAmount", column = "transaction_min_amount"),
+                       @Result(property = "level", column = "level"),
+                       @Result(property = "createdDate", column = "created_date"),
+                       @Result(property = "updatedDate", column = "updated_date") })
+    List<MissionDO> findByLevel(@Param("level") String level);
 
     @Select({ "<script>", "SELECT *", "FROM missions", "WHERE id IN",
               "<foreach item='item' index='index' collection='items'",
@@ -42,5 +52,12 @@ public interface MissionManageDAO {
                        @Result(property = "createdDate", column = "created_date"),
                        @Result(property = "updatedDate", column = "updated_date") })
     List<MissionDO> findByListIds(@Param("items") List<BigInteger> ids);
+
+    String findMissionIdByUserId = "SELECT * FROM user_missions WHERE user_id = #{userId} AND level = #{level}";
+
+    @Select(findMissionIdByUserId)
+    @Results(value = { @Result(property = "mission_id", column = "mission_id") })
+    List<BigInteger> findMissionIdByUserId(@Param("userId") String userId,
+                                           @Param("level") String level);
 
 }

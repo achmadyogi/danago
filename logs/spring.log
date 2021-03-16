@@ -281,3 +281,113 @@
 2021-03-16 13:24:16.155  INFO 42630 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2021-03-16 13:24:16.159  INFO 42630 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2021-03-16 13:24:16.179  INFO 42630 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 20 ms
+2021-03-16 14:40:52.499  INFO 42630 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-16 14:40:52.537  INFO 42630 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-03-16 14:40:52.560  INFO 42630 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-03-16 14:41:26.820  INFO 48637 --- [main] com.manda.go.SOFABootWebApplication      : Starting SOFABootWebApplication on DNID0683L01.local with PID 48637 (/Users/prakosoa/Documents/DANALearning/DANA-go/go/app/web/target/classes started by prakosoa in /Users/prakosoa/Documents/DANALearning/DANA-go/go)
+2021-03-16 14:41:26.821  INFO 48637 --- [main] com.manda.go.SOFABootWebApplication      : No active profile set, falling back to default profiles: default
+2021-03-16 14:41:27.922  WARN 48637 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.manda.go]' package. Please check your configuration.
+2021-03-16 14:41:28.636  INFO 48637 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-03-16 14:41:28.668  INFO 48637 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-16 14:41:28.669  INFO 48637 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-03-16 14:41:28.767  INFO 48637 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-16 14:41:28.767  INFO 48637 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1891 ms
+2021-03-16 14:41:29.372  INFO 48637 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-16 14:41:29.738  INFO 48637 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2021-03-16 14:41:30.065  WARN 48637 --- [sofa-module-start-go-common-dal] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.manda.go]' package. Please check your configuration.
+2021-03-16 14:41:30.105  WARN 48637 --- [sofa-module-start-go-core-service] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.manda.go]' package. Please check your configuration.
+2021-03-16 14:41:30.106  WARN 48637 --- [sofa-module-start-go-biz-service-impl] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.manda.go]' package. Please check your configuration.
+2021-03-16 14:41:30.112  WARN 48637 --- [sofa-module-start-go-core-service] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'avatarManageDAO' and 'com.manda.go.common.dal.dai.AvatarManageDAO' mapperInterface. Bean already defined with the same name!
+2021-03-16 14:41:30.112  WARN 48637 --- [sofa-module-start-go-core-service] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'gamePlayManageDAO' and 'com.manda.go.common.dal.dai.GamePlayManageDAO' mapperInterface. Bean already defined with the same name!
+2021-03-16 14:41:30.112  WARN 48637 --- [sofa-module-start-go-core-service] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'missionManageDAO' and 'com.manda.go.common.dal.dai.MissionManageDAO' mapperInterface. Bean already defined with the same name!
+2021-03-16 14:41:30.113  WARN 48637 --- [sofa-module-start-go-core-service] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.manda.go.common.dal.dai]' package. Please check your configuration.
+2021-03-16 14:41:30.228  INFO 48637 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-16 14:41:30.404  INFO 48637 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-16 14:41:30.490  INFO 48637 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2021-03-16 14:41:30.492  INFO 48637 --- [main] com.manda.go.SOFABootWebApplication      : Started SOFABootWebApplication in 4.504 seconds (JVM running for 5.102)
+2021-03-16 14:41:49.573  INFO 48637 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-16 14:41:49.575  INFO 48637 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-03-16 14:41:49.593  INFO 48637 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-03-16 14:41:52.942  INFO 48678 --- [main] com.manda.go.SOFABootWebApplication      : Starting SOFABootWebApplication on DNID0683L01.local with PID 48678 (/Users/prakosoa/Documents/DANALearning/DANA-go/go/app/web/target/classes started by prakosoa in /Users/prakosoa/Documents/DANALearning/DANA-go/go)
+2021-03-16 14:41:52.943  INFO 48678 --- [main] com.manda.go.SOFABootWebApplication      : No active profile set, falling back to default profiles: default
+2021-03-16 14:41:53.919  WARN 48678 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.manda.go]' package. Please check your configuration.
+2021-03-16 14:41:54.526  INFO 48678 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-03-16 14:41:54.556  INFO 48678 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-16 14:41:54.556  INFO 48678 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-03-16 14:41:54.649  INFO 48678 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-16 14:41:54.649  INFO 48678 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1648 ms
+2021-03-16 14:41:55.247  INFO 48678 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-16 14:41:55.607  INFO 48678 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2021-03-16 14:41:55.886  WARN 48678 --- [sofa-module-start-go-biz-shared] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.manda.go]' package. Please check your configuration.
+2021-03-16 14:41:55.888  WARN 48678 --- [sofa-module-start-go-common-dal] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.manda.go]' package. Please check your configuration.
+2021-03-16 14:41:55.929  WARN 48678 --- [sofa-module-start-go-biz-service-impl] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.manda.go]' package. Please check your configuration.
+2021-03-16 14:41:55.929  WARN 48678 --- [sofa-module-start-go-core-service] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.manda.go]' package. Please check your configuration.
+2021-03-16 14:41:55.936  WARN 48678 --- [sofa-module-start-go-core-service] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'avatarManageDAO' and 'com.manda.go.common.dal.dai.AvatarManageDAO' mapperInterface. Bean already defined with the same name!
+2021-03-16 14:41:55.936  WARN 48678 --- [sofa-module-start-go-core-service] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'gamePlayManageDAO' and 'com.manda.go.common.dal.dai.GamePlayManageDAO' mapperInterface. Bean already defined with the same name!
+2021-03-16 14:41:55.936  WARN 48678 --- [sofa-module-start-go-core-service] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'missionManageDAO' and 'com.manda.go.common.dal.dai.MissionManageDAO' mapperInterface. Bean already defined with the same name!
+2021-03-16 14:41:55.936  WARN 48678 --- [sofa-module-start-go-core-service] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.manda.go.common.dal.dai]' package. Please check your configuration.
+2021-03-16 14:41:56.024  INFO 48678 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-16 14:41:56.176  INFO 48678 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-16 14:41:56.246  INFO 48678 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2021-03-16 14:41:56.247  INFO 48678 --- [main] com.manda.go.SOFABootWebApplication      : Started SOFABootWebApplication in 3.883 seconds (JVM running for 4.357)
+2021-03-16 14:42:49.737  INFO 48678 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-16 14:42:49.738  INFO 48678 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-16 14:42:49.769  INFO 48678 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 30 ms
+2021-03-16 14:44:59.625  INFO 48678 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-16 14:44:59.632  INFO 48678 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-03-16 14:44:59.656  INFO 48678 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-03-16 14:45:03.570  INFO 48900 --- [main] com.manda.go.SOFABootWebApplication      : Starting SOFABootWebApplication on DNID0683L01.local with PID 48900 (/Users/prakosoa/Documents/DANALearning/DANA-go/go/app/web/target/classes started by prakosoa in /Users/prakosoa/Documents/DANALearning/DANA-go/go)
+2021-03-16 14:45:03.571  INFO 48900 --- [main] com.manda.go.SOFABootWebApplication      : No active profile set, falling back to default profiles: default
+2021-03-16 14:45:04.436  WARN 48900 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.manda.go]' package. Please check your configuration.
+2021-03-16 14:45:05.065  INFO 48900 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-03-16 14:45:05.097  INFO 48900 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-16 14:45:05.097  INFO 48900 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-03-16 14:45:05.186  INFO 48900 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-16 14:45:05.186  INFO 48900 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1570 ms
+2021-03-16 14:45:05.815  INFO 48900 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-16 14:45:06.173  INFO 48900 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2021-03-16 14:45:06.515  WARN 48900 --- [sofa-module-start-go-biz-shared] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.manda.go]' package. Please check your configuration.
+2021-03-16 14:45:06.515  WARN 48900 --- [sofa-module-start-go-common-dal] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.manda.go]' package. Please check your configuration.
+2021-03-16 14:45:06.562  WARN 48900 --- [sofa-module-start-go-biz-service-impl] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.manda.go]' package. Please check your configuration.
+2021-03-16 14:45:06.562  WARN 48900 --- [sofa-module-start-go-core-service] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.manda.go]' package. Please check your configuration.
+2021-03-16 14:45:06.570  WARN 48900 --- [sofa-module-start-go-core-service] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'avatarManageDAO' and 'com.manda.go.common.dal.dai.AvatarManageDAO' mapperInterface. Bean already defined with the same name!
+2021-03-16 14:45:06.570  WARN 48900 --- [sofa-module-start-go-core-service] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'gamePlayManageDAO' and 'com.manda.go.common.dal.dai.GamePlayManageDAO' mapperInterface. Bean already defined with the same name!
+2021-03-16 14:45:06.570  WARN 48900 --- [sofa-module-start-go-core-service] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'missionManageDAO' and 'com.manda.go.common.dal.dai.MissionManageDAO' mapperInterface. Bean already defined with the same name!
+2021-03-16 14:45:06.570  WARN 48900 --- [sofa-module-start-go-core-service] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.manda.go.common.dal.dai]' package. Please check your configuration.
+2021-03-16 14:45:06.697  INFO 48900 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-16 14:45:06.865  INFO 48900 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-16 14:45:06.945  INFO 48900 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2021-03-16 14:45:06.946  INFO 48900 --- [main] com.manda.go.SOFABootWebApplication      : Started SOFABootWebApplication in 4.098 seconds (JVM running for 4.564)
+2021-03-16 14:45:11.742  INFO 48900 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-16 14:45:11.761  INFO 48900 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-16 14:45:11.774  INFO 48900 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2021-03-16 14:46:21.314  INFO 48900 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-16 14:46:21.319  INFO 48900 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-03-16 14:46:21.344  INFO 48900 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-03-16 14:46:25.081  INFO 49002 --- [main] com.manda.go.SOFABootWebApplication      : Starting SOFABootWebApplication on DNID0683L01.local with PID 49002 (/Users/prakosoa/Documents/DANALearning/DANA-go/go/app/web/target/classes started by prakosoa in /Users/prakosoa/Documents/DANALearning/DANA-go/go)
+2021-03-16 14:46:25.082  INFO 49002 --- [main] com.manda.go.SOFABootWebApplication      : No active profile set, falling back to default profiles: default
+2021-03-16 14:46:26.013  WARN 49002 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.manda.go]' package. Please check your configuration.
+2021-03-16 14:46:26.578  INFO 49002 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-03-16 14:46:26.609  INFO 49002 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-16 14:46:26.609  INFO 49002 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-03-16 14:46:26.696  INFO 49002 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-16 14:46:26.696  INFO 49002 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1567 ms
+2021-03-16 14:46:27.244  INFO 49002 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-16 14:46:27.596  INFO 49002 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2021-03-16 14:46:27.873  WARN 49002 --- [sofa-module-start-go-common-dal] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.manda.go]' package. Please check your configuration.
+2021-03-16 14:46:27.875  WARN 49002 --- [sofa-module-start-go-biz-shared] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.manda.go]' package. Please check your configuration.
+2021-03-16 14:46:27.920  WARN 49002 --- [sofa-module-start-go-biz-service-impl] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.manda.go]' package. Please check your configuration.
+2021-03-16 14:46:27.920  WARN 49002 --- [sofa-module-start-go-core-service] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.manda.go]' package. Please check your configuration.
+2021-03-16 14:46:27.925  WARN 49002 --- [sofa-module-start-go-core-service] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'avatarManageDAO' and 'com.manda.go.common.dal.dai.AvatarManageDAO' mapperInterface. Bean already defined with the same name!
+2021-03-16 14:46:27.926  WARN 49002 --- [sofa-module-start-go-core-service] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'gamePlayManageDAO' and 'com.manda.go.common.dal.dai.GamePlayManageDAO' mapperInterface. Bean already defined with the same name!
+2021-03-16 14:46:27.926  WARN 49002 --- [sofa-module-start-go-core-service] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'missionManageDAO' and 'com.manda.go.common.dal.dai.MissionManageDAO' mapperInterface. Bean already defined with the same name!
+2021-03-16 14:46:27.926  WARN 49002 --- [sofa-module-start-go-core-service] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.manda.go.common.dal.dai]' package. Please check your configuration.
+2021-03-16 14:46:28.018  INFO 49002 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-16 14:46:28.165  INFO 49002 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-16 14:46:28.238  INFO 49002 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2021-03-16 14:46:28.240  INFO 49002 --- [main] com.manda.go.SOFABootWebApplication      : Started SOFABootWebApplication in 3.719 seconds (JVM running for 4.191)
+2021-03-16 14:46:46.214  INFO 49002 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-16 14:46:46.232  INFO 49002 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-16 14:46:46.258  INFO 49002 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 25 ms
+2021-03-16 15:07:20.744  WARN 49002 --- [http-nio-8082-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-03-16 15:08:35.971  WARN 49002 --- [http-nio-8082-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'text/plain;charset=UTF-8' not supported]

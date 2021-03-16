@@ -7,22 +7,21 @@
             http://sofastack.io/schema/sofaboot http://sofastack.io/schema/sofaboot.xsd"
        default-autowire="byName">
 
-    <bean class="com.manda.go.service.impl.NewsWriteServiceImpl" id="newWriteService"/>
-    <sofa:service ref="newWriteService" interface="com.manda.go.facade.NewsWriteService">
-        <sofa:binding.jvm/>
-    </sofa:service>
-
+    <!-- PUBLISH SERVICE -->
     <bean class="com.manda.go.service.impl.UserServiceFacadeImpl" id="userServiceFacade"/>
     <sofa:service ref="userServiceFacade" interface="com.manda.go.facade.UserServiceFacade">
         <sofa:binding.jvm/>
     </sofa:service>
+    <bean class="com.manda.go.service.impl.MissionServiceFacadeImpl" id="missionServiceFacade"/>
+    <sofa:service ref="missionServiceFacade" interface="com.manda.go.facade.MissionServiceFacade">
+        <sofa:binding.jvm/>
+    </sofa:service>
 
-<!--    <bean class="com.manda.go.service.impl.HelloWorldGoImpl" id="helloWorldGo"/>-->
-<!--    <sofa:service ref="helloWorldGo" interface="com.manda.go.facade.HelloWorldGo">-->
-<!--        <sofa:binding.bolt/>-->
-<!--    </sofa:service>-->
-
+    <!-- USE SERVICE -->
     <sofa:reference id="userService" interface="com.manda.go.core.service.UserService">
+        <sofa:binding.jvm/>
+    </sofa:reference>
+    <sofa:reference id="missionService" interface="com.manda.go.core.service.MissionService">
         <sofa:binding.jvm/>
     </sofa:reference>
 

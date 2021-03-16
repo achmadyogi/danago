@@ -1000,3 +1000,401 @@ Spring bean load time cost list(4) >>>>>>> [totalTime = 271 ms, realTime = 140 m
   └─[Module] go-biz-service-impl [99 ms]
 
 2021-03-16 13:22:59,466 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of manda-go-parent End +++++++++++++++++
+2021-03-16 14:41:26,815 INFO  main                             - SOFABoot Runtime Starting!
+2021-03-16 14:41:29,240 INFO  main                             - Registering component: reference:com.manda.go.facade.UserServiceFacade:#739604181
+2021-03-16 14:41:29,241 INFO  main                             -  >>In Binding [jvm] Begins - com.manda.go.facade.UserServiceFacade.
+2021-03-16 14:41:29,243 INFO  main                             -  >>In Binding [jvm] Ends - com.manda.go.facade.UserServiceFacade.
+2021-03-16 14:41:29,244 INFO  main                             - Registering component: reference:com.manda.go.facade.MissionServiceFacade:#739604181
+2021-03-16 14:41:29,244 INFO  main                             -  >>In Binding [jvm] Begins - com.manda.go.facade.MissionServiceFacade.
+2021-03-16 14:41:29,245 INFO  main                             -  >>In Binding [jvm] Ends - com.manda.go.facade.MissionServiceFacade.
+2021-03-16 14:41:29,764 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of manda-go-parent Start +++++++++++++++++
+2021-03-16 14:41:29,770 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of manda-go-parent End +++++++++++++++++
+2021-03-16 14:41:29,770 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of manda-go-parent Start +++++++++++++++++
+2021-03-16 14:41:29,771 INFO  main                             - 
+All activated module list(4) >>>>>>>
+  ├─ go-biz-service-impl
+  ├─ go-biz-shared
+  ├─ go-common-dal
+  └─ go-core-service
+
+Modules that could install(4) >>>>>>>
+  ├─ go-biz-shared
+  ├─ go-common-dal
+  ├─ go-biz-service-impl
+  └─ go-core-service
+
+2021-03-16 14:41:29,774 INFO  main                             - Start install manda-go-parent's module: go-biz-shared
+2021-03-16 14:41:29,869 ERROR main                             - Install module go-biz-shared got an error!
+org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: Bean class [com.manda.go.service.shared.NewsReadServiceImpl] not found
+Offending resource: file [/Users/prakosoa/Documents/DANALearning/DANA-go/go/app/biz/shared/target/classes/META-INF/spring/biz-shared-service.xml]
+Bean 'newReadService'; nested exception is java.lang.ClassNotFoundException: com.manda.go.service.shared.NewsReadServiceImpl
+	at org.springframework.beans.factory.parsing.FailFastProblemReporter.error(FailFastProblemReporter.java:72)
+	at org.springframework.beans.factory.parsing.ReaderContext.error(ReaderContext.java:119)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.error(BeanDefinitionParserDelegate.java:288)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.parseBeanDefinitionElement(BeanDefinitionParserDelegate.java:534)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.parseBeanDefinitionElement(BeanDefinitionParserDelegate.java:437)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.parseBeanDefinitionElement(BeanDefinitionParserDelegate.java:405)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.processBeanDefinition(DefaultBeanDefinitionDocumentReader.java:306)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseDefaultElement(DefaultBeanDefinitionDocumentReader.java:197)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:176)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.doRegisterBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:149)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.registerBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:96)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.registerBeanDefinitions(XmlBeanDefinitionReader.java:514)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:394)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:337)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:305)
+	at com.alipay.sofa.isle.loader.DynamicSpringContextLoader.loadBeanDefinitions(DynamicSpringContextLoader.java:105)
+	at com.alipay.sofa.isle.loader.DynamicSpringContextLoader.loadSpringContext(DynamicSpringContextLoader.java:97)
+	at com.alipay.sofa.isle.stage.SpringContextInstallStage.installSpringContext(SpringContextInstallStage.java:104)
+	at com.alipay.sofa.isle.stage.SpringContextInstallStage.doProcess(SpringContextInstallStage.java:81)
+	at com.alipay.sofa.isle.stage.SpringContextInstallStage.doProcess(SpringContextInstallStage.java:71)
+	at com.alipay.sofa.isle.stage.AbstractPipelineStage.process(AbstractPipelineStage.java:44)
+	at com.alipay.sofa.isle.stage.DefaultPipelineContext.process(DefaultPipelineContext.java:33)
+	at com.alipay.sofa.isle.spring.listener.SofaModuleContextRefreshedListener.onApplicationEvent(SofaModuleContextRefreshedListener.java:50)
+	at com.alipay.sofa.isle.spring.listener.SofaModuleContextRefreshedListener.onApplicationEvent(SofaModuleContextRefreshedListener.java:38)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:402)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:359)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:896)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.manda.go.SOFABootWebApplication.main(SOFABootWebApplication.java:37)
+Caused by: java.lang.ClassNotFoundException: com.manda.go.service.shared.NewsReadServiceImpl
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:398)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:281)
+	at org.springframework.beans.factory.support.BeanDefinitionReaderUtils.createBeanDefinition(BeanDefinitionReaderUtils.java:64)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.createBeanDefinition(BeanDefinitionParserDelegate.java:642)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.parseBeanDefinitionElement(BeanDefinitionParserDelegate.java:515)
+	... 35 common frames omitted
+2021-03-16 14:41:29,872 INFO  main                             - Start install manda-go-parent's module: go-common-dal
+2021-03-16 14:41:29,884 INFO  main                             - Start install manda-go-parent's module: go-biz-service-impl
+2021-03-16 14:41:29,996 INFO  main                             - Start install manda-go-parent's module: go-core-service
+2021-03-16 14:41:30,051 INFO  sofa-module-start-go-common-dal  - Begin refresh Spring Application Context of module go-common-dal of application manda-go-parent.
+2021-03-16 14:41:30,081 INFO  sofa-module-start-go-common-dal  - Registering component: Spring:go-common-dal
+2021-03-16 14:41:30,082 INFO  sofa-module-start-go-biz-service-impl - Begin refresh Spring Application Context of module go-biz-service-impl of application manda-go-parent.
+2021-03-16 14:41:30,082 INFO  sofa-module-start-go-core-service - Begin refresh Spring Application Context of module go-core-service of application manda-go-parent.
+2021-03-16 14:41:30,126 INFO  sofa-module-start-go-biz-service-impl - Registering component: reference:com.manda.go.core.service.UserService:#739604181
+2021-03-16 14:41:30,127 INFO  sofa-module-start-go-biz-service-impl -  >>In Binding [jvm] Begins - com.manda.go.core.service.UserService.
+2021-03-16 14:41:30,129 INFO  sofa-module-start-go-biz-service-impl -  >>In Binding [jvm] Ends - com.manda.go.core.service.UserService.
+2021-03-16 14:41:30,134 INFO  sofa-module-start-go-biz-service-impl - Registering component: service:com.manda.go.facade.UserServiceFacade
+2021-03-16 14:41:30,134 INFO  sofa-module-start-go-biz-service-impl -  <<PreOut Binding [jvm] Begins - com.manda.go.facade.UserServiceFacade.
+2021-03-16 14:41:30,134 INFO  sofa-module-start-go-biz-service-impl -  <<PreOut Binding [jvm] Ends - com.manda.go.facade.UserServiceFacade.
+2021-03-16 14:41:30,134 INFO  sofa-module-start-go-biz-service-impl -  <<Out Binding [jvm] Begins - com.manda.go.facade.UserServiceFacade.
+2021-03-16 14:41:30,135 INFO  sofa-module-start-go-biz-service-impl -  <<Out Binding [jvm] Ends - com.manda.go.facade.UserServiceFacade.
+2021-03-16 14:41:30,135 INFO  sofa-module-start-go-biz-service-impl - Register Service - com.manda.go.facade.UserServiceFacade
+2021-03-16 14:41:30,138 INFO  sofa-module-start-go-biz-service-impl - Registering component: reference:com.manda.go.core.service.MissionService:#739604181
+2021-03-16 14:41:30,138 INFO  sofa-module-start-go-biz-service-impl -  >>In Binding [jvm] Begins - com.manda.go.core.service.MissionService.
+2021-03-16 14:41:30,140 INFO  sofa-module-start-go-biz-service-impl -  >>In Binding [jvm] Ends - com.manda.go.core.service.MissionService.
+2021-03-16 14:41:30,141 INFO  sofa-module-start-go-biz-service-impl - Registering component: service:com.manda.go.facade.MissionServiceFacade
+2021-03-16 14:41:30,141 INFO  sofa-module-start-go-biz-service-impl -  <<PreOut Binding [jvm] Begins - com.manda.go.facade.MissionServiceFacade.
+2021-03-16 14:41:30,141 INFO  sofa-module-start-go-biz-service-impl -  <<PreOut Binding [jvm] Ends - com.manda.go.facade.MissionServiceFacade.
+2021-03-16 14:41:30,141 INFO  sofa-module-start-go-biz-service-impl -  <<Out Binding [jvm] Begins - com.manda.go.facade.MissionServiceFacade.
+2021-03-16 14:41:30,142 INFO  sofa-module-start-go-biz-service-impl -  <<Out Binding [jvm] Ends - com.manda.go.facade.MissionServiceFacade.
+2021-03-16 14:41:30,142 INFO  sofa-module-start-go-biz-service-impl - Register Service - com.manda.go.facade.MissionServiceFacade
+2021-03-16 14:41:30,143 INFO  sofa-module-start-go-biz-service-impl - Registering component: Spring:go-biz-service-impl
+2021-03-16 14:41:30,159 INFO  sofa-module-start-go-core-service - Registering component: service:com.manda.go.core.service.UserService
+2021-03-16 14:41:30,160 INFO  sofa-module-start-go-core-service -  <<PreOut Binding [jvm] Begins - com.manda.go.core.service.UserService.
+2021-03-16 14:41:30,160 INFO  sofa-module-start-go-core-service -  <<PreOut Binding [jvm] Ends - com.manda.go.core.service.UserService.
+2021-03-16 14:41:30,160 INFO  sofa-module-start-go-core-service -  <<Out Binding [jvm] Begins - com.manda.go.core.service.UserService.
+2021-03-16 14:41:30,160 INFO  sofa-module-start-go-core-service -  <<Out Binding [jvm] Ends - com.manda.go.core.service.UserService.
+2021-03-16 14:41:30,160 INFO  sofa-module-start-go-core-service - Register Service - com.manda.go.core.service.UserService
+2021-03-16 14:41:30,196 INFO  sofa-module-start-go-core-service - Registering component: service:com.manda.go.core.service.MissionService
+2021-03-16 14:41:30,196 INFO  sofa-module-start-go-core-service -  <<PreOut Binding [jvm] Begins - com.manda.go.core.service.MissionService.
+2021-03-16 14:41:30,196 INFO  sofa-module-start-go-core-service -  <<PreOut Binding [jvm] Ends - com.manda.go.core.service.MissionService.
+2021-03-16 14:41:30,196 INFO  sofa-module-start-go-core-service -  <<Out Binding [jvm] Begins - com.manda.go.core.service.MissionService.
+2021-03-16 14:41:30,196 INFO  sofa-module-start-go-core-service -  <<Out Binding [jvm] Ends - com.manda.go.core.service.MissionService.
+2021-03-16 14:41:30,196 INFO  sofa-module-start-go-core-service - Register Service - com.manda.go.core.service.MissionService
+2021-03-16 14:41:30,198 INFO  sofa-module-start-go-core-service - Registering component: Spring:go-core-service
+2021-03-16 14:41:30,198 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of manda-go-parent End +++++++++++++++++
+2021-03-16 14:41:30,198 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of manda-go-parent Start +++++++++++++++++
+2021-03-16 14:41:30,199 INFO  main                             - 
+Spring context initialize success module list(3) >>>>>>> [totalTime = 206 ms, realTime = 146 ms]
+  ├─go-common-dal [29 ms]
+  │   `---/Users/prakosoa/Documents/DANALearning/DANA-go/go/app/common/dal/target/classes/META-INF/spring/common-dal.xml
+  ├─go-biz-service-impl [61 ms]
+  │   `---/Users/prakosoa/Documents/DANALearning/DANA-go/go/app/biz/service-impl/target/classes/META-INF/spring/biz-service-impl.xml
+  └─go-core-service [116 ms]
+      `---/Users/prakosoa/Documents/DANALearning/DANA-go/go/app/core/service/target/classes/META-INF/spring/core-service-config.xml
+
+Spring context initialize failed module list(1) >>>>>>>
+  └─go-biz-shared
+
+Spring bean load time cost list(3) >>>>>>> [totalTime = 206 ms, realTime = 146 ms]
+  ├─[Module] go-common-dal [29 ms]
+  ├─[Module] go-biz-service-impl [61 ms]
+  └─[Module] go-core-service [116 ms]
+
+2021-03-16 14:41:30,200 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of manda-go-parent End +++++++++++++++++
+2021-03-16 14:41:52,936 INFO  main                             - SOFABoot Runtime Starting!
+2021-03-16 14:41:55,095 INFO  main                             - Registering component: reference:com.manda.go.facade.UserServiceFacade:#739604181
+2021-03-16 14:41:55,097 INFO  main                             -  >>In Binding [jvm] Begins - com.manda.go.facade.UserServiceFacade.
+2021-03-16 14:41:55,098 INFO  main                             -  >>In Binding [jvm] Ends - com.manda.go.facade.UserServiceFacade.
+2021-03-16 14:41:55,099 INFO  main                             - Registering component: reference:com.manda.go.facade.MissionServiceFacade:#739604181
+2021-03-16 14:41:55,099 INFO  main                             -  >>In Binding [jvm] Begins - com.manda.go.facade.MissionServiceFacade.
+2021-03-16 14:41:55,101 INFO  main                             -  >>In Binding [jvm] Ends - com.manda.go.facade.MissionServiceFacade.
+2021-03-16 14:41:55,634 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of manda-go-parent Start +++++++++++++++++
+2021-03-16 14:41:55,640 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of manda-go-parent End +++++++++++++++++
+2021-03-16 14:41:55,640 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of manda-go-parent Start +++++++++++++++++
+2021-03-16 14:41:55,641 INFO  main                             - 
+All activated module list(4) >>>>>>>
+  ├─ go-biz-service-impl
+  ├─ go-biz-shared
+  ├─ go-common-dal
+  └─ go-core-service
+
+Modules that could install(4) >>>>>>>
+  ├─ go-biz-shared
+  ├─ go-common-dal
+  ├─ go-biz-service-impl
+  └─ go-core-service
+
+2021-03-16 14:41:55,644 INFO  main                             - Start install manda-go-parent's module: go-biz-shared
+2021-03-16 14:41:55,711 INFO  main                             - Start install manda-go-parent's module: go-common-dal
+2021-03-16 14:41:55,725 INFO  main                             - Start install manda-go-parent's module: go-biz-service-impl
+2021-03-16 14:41:55,812 INFO  main                             - Start install manda-go-parent's module: go-core-service
+2021-03-16 14:41:55,868 INFO  sofa-module-start-go-common-dal  - Begin refresh Spring Application Context of module go-common-dal of application manda-go-parent.
+2021-03-16 14:41:55,868 INFO  sofa-module-start-go-biz-shared  - Begin refresh Spring Application Context of module go-biz-shared of application manda-go-parent.
+2021-03-16 14:41:55,908 INFO  sofa-module-start-go-biz-shared  - Registering component: Spring:go-biz-shared
+2021-03-16 14:41:55,908 INFO  sofa-module-start-go-common-dal  - Registering component: Spring:go-common-dal
+2021-03-16 14:41:55,910 INFO  sofa-module-start-go-biz-service-impl - Begin refresh Spring Application Context of module go-biz-service-impl of application manda-go-parent.
+2021-03-16 14:41:55,910 INFO  sofa-module-start-go-core-service - Begin refresh Spring Application Context of module go-core-service of application manda-go-parent.
+2021-03-16 14:41:55,949 INFO  sofa-module-start-go-biz-service-impl - Registering component: reference:com.manda.go.core.service.UserService:#739604181
+2021-03-16 14:41:55,949 INFO  sofa-module-start-go-biz-service-impl -  >>In Binding [jvm] Begins - com.manda.go.core.service.UserService.
+2021-03-16 14:41:55,950 INFO  sofa-module-start-go-biz-service-impl -  >>In Binding [jvm] Ends - com.manda.go.core.service.UserService.
+2021-03-16 14:41:55,956 INFO  sofa-module-start-go-biz-service-impl - Registering component: service:com.manda.go.facade.UserServiceFacade
+2021-03-16 14:41:55,956 INFO  sofa-module-start-go-biz-service-impl -  <<PreOut Binding [jvm] Begins - com.manda.go.facade.UserServiceFacade.
+2021-03-16 14:41:55,956 INFO  sofa-module-start-go-biz-service-impl -  <<PreOut Binding [jvm] Ends - com.manda.go.facade.UserServiceFacade.
+2021-03-16 14:41:55,956 INFO  sofa-module-start-go-biz-service-impl -  <<Out Binding [jvm] Begins - com.manda.go.facade.UserServiceFacade.
+2021-03-16 14:41:55,956 INFO  sofa-module-start-go-biz-service-impl -  <<Out Binding [jvm] Ends - com.manda.go.facade.UserServiceFacade.
+2021-03-16 14:41:55,956 INFO  sofa-module-start-go-biz-service-impl - Register Service - com.manda.go.facade.UserServiceFacade
+2021-03-16 14:41:55,959 INFO  sofa-module-start-go-biz-service-impl - Registering component: reference:com.manda.go.core.service.MissionService:#739604181
+2021-03-16 14:41:55,959 INFO  sofa-module-start-go-biz-service-impl -  >>In Binding [jvm] Begins - com.manda.go.core.service.MissionService.
+2021-03-16 14:41:55,961 INFO  sofa-module-start-go-biz-service-impl -  >>In Binding [jvm] Ends - com.manda.go.core.service.MissionService.
+2021-03-16 14:41:55,962 INFO  sofa-module-start-go-biz-service-impl - Registering component: service:com.manda.go.facade.MissionServiceFacade
+2021-03-16 14:41:55,962 INFO  sofa-module-start-go-biz-service-impl -  <<PreOut Binding [jvm] Begins - com.manda.go.facade.MissionServiceFacade.
+2021-03-16 14:41:55,962 INFO  sofa-module-start-go-biz-service-impl -  <<PreOut Binding [jvm] Ends - com.manda.go.facade.MissionServiceFacade.
+2021-03-16 14:41:55,962 INFO  sofa-module-start-go-biz-service-impl -  <<Out Binding [jvm] Begins - com.manda.go.facade.MissionServiceFacade.
+2021-03-16 14:41:55,962 INFO  sofa-module-start-go-biz-service-impl -  <<Out Binding [jvm] Ends - com.manda.go.facade.MissionServiceFacade.
+2021-03-16 14:41:55,962 INFO  sofa-module-start-go-biz-service-impl - Register Service - com.manda.go.facade.MissionServiceFacade
+2021-03-16 14:41:55,963 INFO  sofa-module-start-go-biz-service-impl - Registering component: Spring:go-biz-service-impl
+2021-03-16 14:41:55,981 INFO  sofa-module-start-go-core-service - Registering component: service:com.manda.go.core.service.UserService
+2021-03-16 14:41:55,981 INFO  sofa-module-start-go-core-service -  <<PreOut Binding [jvm] Begins - com.manda.go.core.service.UserService.
+2021-03-16 14:41:55,981 INFO  sofa-module-start-go-core-service -  <<PreOut Binding [jvm] Ends - com.manda.go.core.service.UserService.
+2021-03-16 14:41:55,981 INFO  sofa-module-start-go-core-service -  <<Out Binding [jvm] Begins - com.manda.go.core.service.UserService.
+2021-03-16 14:41:55,981 INFO  sofa-module-start-go-core-service -  <<Out Binding [jvm] Ends - com.manda.go.core.service.UserService.
+2021-03-16 14:41:55,981 INFO  sofa-module-start-go-core-service - Register Service - com.manda.go.core.service.UserService
+2021-03-16 14:41:56,010 INFO  sofa-module-start-go-core-service - Registering component: service:com.manda.go.core.service.MissionService
+2021-03-16 14:41:56,010 INFO  sofa-module-start-go-core-service -  <<PreOut Binding [jvm] Begins - com.manda.go.core.service.MissionService.
+2021-03-16 14:41:56,010 INFO  sofa-module-start-go-core-service -  <<PreOut Binding [jvm] Ends - com.manda.go.core.service.MissionService.
+2021-03-16 14:41:56,010 INFO  sofa-module-start-go-core-service -  <<Out Binding [jvm] Begins - com.manda.go.core.service.MissionService.
+2021-03-16 14:41:56,011 INFO  sofa-module-start-go-core-service -  <<Out Binding [jvm] Ends - com.manda.go.core.service.MissionService.
+2021-03-16 14:41:56,011 INFO  sofa-module-start-go-core-service - Register Service - com.manda.go.core.service.MissionService
+2021-03-16 14:41:56,012 INFO  sofa-module-start-go-core-service - Registering component: Spring:go-core-service
+2021-03-16 14:41:56,012 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of manda-go-parent End +++++++++++++++++
+2021-03-16 14:41:56,012 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of manda-go-parent Start +++++++++++++++++
+2021-03-16 14:41:56,014 INFO  main                             - 
+Spring context initialize success module list(4) >>>>>>> [totalTime = 237 ms, realTime = 144 ms]
+  ├─go-biz-shared [41 ms]
+  │   `---/Users/prakosoa/Documents/DANALearning/DANA-go/go/app/biz/shared/target/classes/META-INF/spring/biz-shared-service.xml
+  ├─go-common-dal [41 ms]
+  │   `---/Users/prakosoa/Documents/DANALearning/DANA-go/go/app/common/dal/target/classes/META-INF/spring/common-dal.xml
+  ├─go-biz-service-impl [53 ms]
+  │   `---/Users/prakosoa/Documents/DANALearning/DANA-go/go/app/biz/service-impl/target/classes/META-INF/spring/biz-service-impl.xml
+  └─go-core-service [102 ms]
+      `---/Users/prakosoa/Documents/DANALearning/DANA-go/go/app/core/service/target/classes/META-INF/spring/core-service-config.xml
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(4) >>>>>>> [totalTime = 237 ms, realTime = 144 ms]
+  ├─[Module] go-biz-shared [41 ms]
+  ├─[Module] go-common-dal [41 ms]
+  ├─[Module] go-biz-service-impl [53 ms]
+  └─[Module] go-core-service [102 ms]
+
+2021-03-16 14:41:56,014 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of manda-go-parent End +++++++++++++++++
+2021-03-16 14:45:03,565 INFO  main                             - SOFABoot Runtime Starting!
+2021-03-16 14:45:05,634 INFO  main                             - Registering component: reference:com.manda.go.facade.UserServiceFacade:#739604181
+2021-03-16 14:45:05,636 INFO  main                             -  >>In Binding [jvm] Begins - com.manda.go.facade.UserServiceFacade.
+2021-03-16 14:45:05,639 INFO  main                             -  >>In Binding [jvm] Ends - com.manda.go.facade.UserServiceFacade.
+2021-03-16 14:45:05,639 INFO  main                             - Registering component: reference:com.manda.go.facade.MissionServiceFacade:#739604181
+2021-03-16 14:45:05,639 INFO  main                             -  >>In Binding [jvm] Begins - com.manda.go.facade.MissionServiceFacade.
+2021-03-16 14:45:05,641 INFO  main                             -  >>In Binding [jvm] Ends - com.manda.go.facade.MissionServiceFacade.
+2021-03-16 14:45:06,200 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of manda-go-parent Start +++++++++++++++++
+2021-03-16 14:45:06,206 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of manda-go-parent End +++++++++++++++++
+2021-03-16 14:45:06,206 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of manda-go-parent Start +++++++++++++++++
+2021-03-16 14:45:06,207 INFO  main                             - 
+All activated module list(4) >>>>>>>
+  ├─ go-biz-service-impl
+  ├─ go-biz-shared
+  ├─ go-common-dal
+  └─ go-core-service
+
+Modules that could install(4) >>>>>>>
+  ├─ go-biz-shared
+  ├─ go-common-dal
+  ├─ go-biz-service-impl
+  └─ go-core-service
+
+2021-03-16 14:45:06,210 INFO  main                             - Start install manda-go-parent's module: go-biz-shared
+2021-03-16 14:45:06,285 INFO  main                             - Start install manda-go-parent's module: go-common-dal
+2021-03-16 14:45:06,299 INFO  main                             - Start install manda-go-parent's module: go-biz-service-impl
+2021-03-16 14:45:06,421 INFO  main                             - Start install manda-go-parent's module: go-core-service
+2021-03-16 14:45:06,494 INFO  sofa-module-start-go-biz-shared  - Begin refresh Spring Application Context of module go-biz-shared of application manda-go-parent.
+2021-03-16 14:45:06,494 INFO  sofa-module-start-go-common-dal  - Begin refresh Spring Application Context of module go-common-dal of application manda-go-parent.
+2021-03-16 14:45:06,536 INFO  sofa-module-start-go-common-dal  - Registering component: Spring:go-common-dal
+2021-03-16 14:45:06,536 INFO  sofa-module-start-go-biz-shared  - Registering component: Spring:go-biz-shared
+2021-03-16 14:45:06,537 INFO  sofa-module-start-go-biz-service-impl - Begin refresh Spring Application Context of module go-biz-service-impl of application manda-go-parent.
+2021-03-16 14:45:06,537 INFO  sofa-module-start-go-core-service - Begin refresh Spring Application Context of module go-core-service of application manda-go-parent.
+2021-03-16 14:45:06,587 INFO  sofa-module-start-go-biz-service-impl - Registering component: reference:com.manda.go.core.service.UserService:#739604181
+2021-03-16 14:45:06,587 INFO  sofa-module-start-go-biz-service-impl -  >>In Binding [jvm] Begins - com.manda.go.core.service.UserService.
+2021-03-16 14:45:06,589 INFO  sofa-module-start-go-biz-service-impl -  >>In Binding [jvm] Ends - com.manda.go.core.service.UserService.
+2021-03-16 14:45:06,596 INFO  sofa-module-start-go-biz-service-impl - Registering component: service:com.manda.go.facade.UserServiceFacade
+2021-03-16 14:45:06,596 INFO  sofa-module-start-go-biz-service-impl -  <<PreOut Binding [jvm] Begins - com.manda.go.facade.UserServiceFacade.
+2021-03-16 14:45:06,596 INFO  sofa-module-start-go-biz-service-impl -  <<PreOut Binding [jvm] Ends - com.manda.go.facade.UserServiceFacade.
+2021-03-16 14:45:06,596 INFO  sofa-module-start-go-biz-service-impl -  <<Out Binding [jvm] Begins - com.manda.go.facade.UserServiceFacade.
+2021-03-16 14:45:06,596 INFO  sofa-module-start-go-biz-service-impl -  <<Out Binding [jvm] Ends - com.manda.go.facade.UserServiceFacade.
+2021-03-16 14:45:06,596 INFO  sofa-module-start-go-biz-service-impl - Register Service - com.manda.go.facade.UserServiceFacade
+2021-03-16 14:45:06,600 INFO  sofa-module-start-go-biz-service-impl - Registering component: reference:com.manda.go.core.service.MissionService:#739604181
+2021-03-16 14:45:06,600 INFO  sofa-module-start-go-biz-service-impl -  >>In Binding [jvm] Begins - com.manda.go.core.service.MissionService.
+2021-03-16 14:45:06,601 INFO  sofa-module-start-go-biz-service-impl -  >>In Binding [jvm] Ends - com.manda.go.core.service.MissionService.
+2021-03-16 14:45:06,603 INFO  sofa-module-start-go-biz-service-impl - Registering component: service:com.manda.go.facade.MissionServiceFacade
+2021-03-16 14:45:06,603 INFO  sofa-module-start-go-biz-service-impl -  <<PreOut Binding [jvm] Begins - com.manda.go.facade.MissionServiceFacade.
+2021-03-16 14:45:06,604 INFO  sofa-module-start-go-biz-service-impl -  <<PreOut Binding [jvm] Ends - com.manda.go.facade.MissionServiceFacade.
+2021-03-16 14:45:06,604 INFO  sofa-module-start-go-biz-service-impl -  <<Out Binding [jvm] Begins - com.manda.go.facade.MissionServiceFacade.
+2021-03-16 14:45:06,604 INFO  sofa-module-start-go-biz-service-impl -  <<Out Binding [jvm] Ends - com.manda.go.facade.MissionServiceFacade.
+2021-03-16 14:45:06,604 INFO  sofa-module-start-go-biz-service-impl - Register Service - com.manda.go.facade.MissionServiceFacade
+2021-03-16 14:45:06,605 INFO  sofa-module-start-go-biz-service-impl - Registering component: Spring:go-biz-service-impl
+2021-03-16 14:45:06,629 INFO  sofa-module-start-go-core-service - Registering component: service:com.manda.go.core.service.UserService
+2021-03-16 14:45:06,629 INFO  sofa-module-start-go-core-service -  <<PreOut Binding [jvm] Begins - com.manda.go.core.service.UserService.
+2021-03-16 14:45:06,629 INFO  sofa-module-start-go-core-service -  <<PreOut Binding [jvm] Ends - com.manda.go.core.service.UserService.
+2021-03-16 14:45:06,629 INFO  sofa-module-start-go-core-service -  <<Out Binding [jvm] Begins - com.manda.go.core.service.UserService.
+2021-03-16 14:45:06,629 INFO  sofa-module-start-go-core-service -  <<Out Binding [jvm] Ends - com.manda.go.core.service.UserService.
+2021-03-16 14:45:06,630 INFO  sofa-module-start-go-core-service - Register Service - com.manda.go.core.service.UserService
+2021-03-16 14:45:06,676 INFO  sofa-module-start-go-core-service - Registering component: service:com.manda.go.core.service.MissionService
+2021-03-16 14:45:06,676 INFO  sofa-module-start-go-core-service -  <<PreOut Binding [jvm] Begins - com.manda.go.core.service.MissionService.
+2021-03-16 14:45:06,676 INFO  sofa-module-start-go-core-service -  <<PreOut Binding [jvm] Ends - com.manda.go.core.service.MissionService.
+2021-03-16 14:45:06,677 INFO  sofa-module-start-go-core-service -  <<Out Binding [jvm] Begins - com.manda.go.core.service.MissionService.
+2021-03-16 14:45:06,677 INFO  sofa-module-start-go-core-service -  <<Out Binding [jvm] Ends - com.manda.go.core.service.MissionService.
+2021-03-16 14:45:06,677 INFO  sofa-module-start-go-core-service - Register Service - com.manda.go.core.service.MissionService
+2021-03-16 14:45:06,678 INFO  sofa-module-start-go-core-service - Registering component: Spring:go-core-service
+2021-03-16 14:45:06,679 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of manda-go-parent End +++++++++++++++++
+2021-03-16 14:45:06,679 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of manda-go-parent Start +++++++++++++++++
+2021-03-16 14:45:06,681 INFO  main                             - 
+Spring context initialize success module list(4) >>>>>>> [totalTime = 292 ms, realTime = 184 ms]
+  ├─go-common-dal [41 ms]
+  │   `---/Users/prakosoa/Documents/DANALearning/DANA-go/go/app/common/dal/target/classes/META-INF/spring/common-dal.xml
+  ├─go-biz-shared [41 ms]
+  │   `---/Users/prakosoa/Documents/DANALearning/DANA-go/go/app/biz/shared/target/classes/META-INF/spring/biz-shared-service.xml
+  ├─go-biz-service-impl [68 ms]
+  │   `---/Users/prakosoa/Documents/DANALearning/DANA-go/go/app/biz/service-impl/target/classes/META-INF/spring/biz-service-impl.xml
+  └─go-core-service [142 ms]
+      `---/Users/prakosoa/Documents/DANALearning/DANA-go/go/app/core/service/target/classes/META-INF/spring/core-service-config.xml
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(4) >>>>>>> [totalTime = 292 ms, realTime = 184 ms]
+  ├─[Module] go-common-dal [41 ms]
+  ├─[Module] go-biz-shared [41 ms]
+  ├─[Module] go-biz-service-impl [68 ms]
+  └─[Module] go-core-service [142 ms]
+
+2021-03-16 14:45:06,681 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of manda-go-parent End +++++++++++++++++
+2021-03-16 14:46:25,075 INFO  main                             - SOFABoot Runtime Starting!
+2021-03-16 14:46:27,115 INFO  main                             - Registering component: reference:com.manda.go.facade.UserServiceFacade:#739604181
+2021-03-16 14:46:27,116 INFO  main                             -  >>In Binding [jvm] Begins - com.manda.go.facade.UserServiceFacade.
+2021-03-16 14:46:27,118 INFO  main                             -  >>In Binding [jvm] Ends - com.manda.go.facade.UserServiceFacade.
+2021-03-16 14:46:27,118 INFO  main                             - Registering component: reference:com.manda.go.facade.MissionServiceFacade:#739604181
+2021-03-16 14:46:27,119 INFO  main                             -  >>In Binding [jvm] Begins - com.manda.go.facade.MissionServiceFacade.
+2021-03-16 14:46:27,120 INFO  main                             -  >>In Binding [jvm] Ends - com.manda.go.facade.MissionServiceFacade.
+2021-03-16 14:46:27,626 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of manda-go-parent Start +++++++++++++++++
+2021-03-16 14:46:27,632 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of manda-go-parent End +++++++++++++++++
+2021-03-16 14:46:27,632 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of manda-go-parent Start +++++++++++++++++
+2021-03-16 14:46:27,633 INFO  main                             - 
+All activated module list(4) >>>>>>>
+  ├─ go-biz-service-impl
+  ├─ go-biz-shared
+  ├─ go-common-dal
+  └─ go-core-service
+
+Modules that could install(4) >>>>>>>
+  ├─ go-biz-shared
+  ├─ go-common-dal
+  ├─ go-biz-service-impl
+  └─ go-core-service
+
+2021-03-16 14:46:27,635 INFO  main                             - Start install manda-go-parent's module: go-biz-shared
+2021-03-16 14:46:27,702 INFO  main                             - Start install manda-go-parent's module: go-common-dal
+2021-03-16 14:46:27,715 INFO  main                             - Start install manda-go-parent's module: go-biz-service-impl
+2021-03-16 14:46:27,814 INFO  main                             - Start install manda-go-parent's module: go-core-service
+2021-03-16 14:46:27,855 INFO  sofa-module-start-go-common-dal  - Begin refresh Spring Application Context of module go-common-dal of application manda-go-parent.
+2021-03-16 14:46:27,855 INFO  sofa-module-start-go-biz-shared  - Begin refresh Spring Application Context of module go-biz-shared of application manda-go-parent.
+2021-03-16 14:46:27,897 INFO  sofa-module-start-go-common-dal  - Registering component: Spring:go-common-dal
+2021-03-16 14:46:27,897 INFO  sofa-module-start-go-biz-shared  - Registering component: Spring:go-biz-shared
+2021-03-16 14:46:27,899 INFO  sofa-module-start-go-biz-service-impl - Begin refresh Spring Application Context of module go-biz-service-impl of application manda-go-parent.
+2021-03-16 14:46:27,899 INFO  sofa-module-start-go-core-service - Begin refresh Spring Application Context of module go-core-service of application manda-go-parent.
+2021-03-16 14:46:27,941 INFO  sofa-module-start-go-biz-service-impl - Registering component: reference:com.manda.go.core.service.UserService:#739604181
+2021-03-16 14:46:27,941 INFO  sofa-module-start-go-biz-service-impl -  >>In Binding [jvm] Begins - com.manda.go.core.service.UserService.
+2021-03-16 14:46:27,942 INFO  sofa-module-start-go-biz-service-impl -  >>In Binding [jvm] Ends - com.manda.go.core.service.UserService.
+2021-03-16 14:46:27,947 INFO  sofa-module-start-go-biz-service-impl - Registering component: service:com.manda.go.facade.UserServiceFacade
+2021-03-16 14:46:27,947 INFO  sofa-module-start-go-biz-service-impl -  <<PreOut Binding [jvm] Begins - com.manda.go.facade.UserServiceFacade.
+2021-03-16 14:46:27,947 INFO  sofa-module-start-go-biz-service-impl -  <<PreOut Binding [jvm] Ends - com.manda.go.facade.UserServiceFacade.
+2021-03-16 14:46:27,947 INFO  sofa-module-start-go-biz-service-impl -  <<Out Binding [jvm] Begins - com.manda.go.facade.UserServiceFacade.
+2021-03-16 14:46:27,947 INFO  sofa-module-start-go-biz-service-impl -  <<Out Binding [jvm] Ends - com.manda.go.facade.UserServiceFacade.
+2021-03-16 14:46:27,947 INFO  sofa-module-start-go-biz-service-impl - Register Service - com.manda.go.facade.UserServiceFacade
+2021-03-16 14:46:27,950 INFO  sofa-module-start-go-biz-service-impl - Registering component: reference:com.manda.go.core.service.MissionService:#739604181
+2021-03-16 14:46:27,951 INFO  sofa-module-start-go-biz-service-impl -  >>In Binding [jvm] Begins - com.manda.go.core.service.MissionService.
+2021-03-16 14:46:27,952 INFO  sofa-module-start-go-biz-service-impl -  >>In Binding [jvm] Ends - com.manda.go.core.service.MissionService.
+2021-03-16 14:46:27,953 INFO  sofa-module-start-go-biz-service-impl - Registering component: service:com.manda.go.facade.MissionServiceFacade
+2021-03-16 14:46:27,954 INFO  sofa-module-start-go-biz-service-impl -  <<PreOut Binding [jvm] Begins - com.manda.go.facade.MissionServiceFacade.
+2021-03-16 14:46:27,954 INFO  sofa-module-start-go-biz-service-impl -  <<PreOut Binding [jvm] Ends - com.manda.go.facade.MissionServiceFacade.
+2021-03-16 14:46:27,954 INFO  sofa-module-start-go-biz-service-impl -  <<Out Binding [jvm] Begins - com.manda.go.facade.MissionServiceFacade.
+2021-03-16 14:46:27,954 INFO  sofa-module-start-go-biz-service-impl -  <<Out Binding [jvm] Ends - com.manda.go.facade.MissionServiceFacade.
+2021-03-16 14:46:27,954 INFO  sofa-module-start-go-biz-service-impl - Register Service - com.manda.go.facade.MissionServiceFacade
+2021-03-16 14:46:27,955 INFO  sofa-module-start-go-biz-service-impl - Registering component: Spring:go-biz-service-impl
+2021-03-16 14:46:27,975 INFO  sofa-module-start-go-core-service - Registering component: service:com.manda.go.core.service.UserService
+2021-03-16 14:46:27,975 INFO  sofa-module-start-go-core-service -  <<PreOut Binding [jvm] Begins - com.manda.go.core.service.UserService.
+2021-03-16 14:46:27,975 INFO  sofa-module-start-go-core-service -  <<PreOut Binding [jvm] Ends - com.manda.go.core.service.UserService.
+2021-03-16 14:46:27,975 INFO  sofa-module-start-go-core-service -  <<Out Binding [jvm] Begins - com.manda.go.core.service.UserService.
+2021-03-16 14:46:27,975 INFO  sofa-module-start-go-core-service -  <<Out Binding [jvm] Ends - com.manda.go.core.service.UserService.
+2021-03-16 14:46:27,975 INFO  sofa-module-start-go-core-service - Register Service - com.manda.go.core.service.UserService
+2021-03-16 14:46:28,004 INFO  sofa-module-start-go-core-service - Registering component: service:com.manda.go.core.service.MissionService
+2021-03-16 14:46:28,004 INFO  sofa-module-start-go-core-service -  <<PreOut Binding [jvm] Begins - com.manda.go.core.service.MissionService.
+2021-03-16 14:46:28,004 INFO  sofa-module-start-go-core-service -  <<PreOut Binding [jvm] Ends - com.manda.go.core.service.MissionService.
+2021-03-16 14:46:28,004 INFO  sofa-module-start-go-core-service -  <<Out Binding [jvm] Begins - com.manda.go.core.service.MissionService.
+2021-03-16 14:46:28,004 INFO  sofa-module-start-go-core-service -  <<Out Binding [jvm] Ends - com.manda.go.core.service.MissionService.
+2021-03-16 14:46:28,004 INFO  sofa-module-start-go-core-service - Register Service - com.manda.go.core.service.MissionService
+2021-03-16 14:46:28,005 INFO  sofa-module-start-go-core-service - Registering component: Spring:go-core-service
+2021-03-16 14:46:28,005 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of manda-go-parent End +++++++++++++++++
+2021-03-16 14:46:28,005 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of manda-go-parent Start +++++++++++++++++
+2021-03-16 14:46:28,007 INFO  main                             - 
+Spring context initialize success module list(4) >>>>>>> [totalTime = 246 ms, realTime = 149 ms]
+  ├─go-biz-shared [42 ms]
+  │   `---/Users/prakosoa/Documents/DANALearning/DANA-go/go/app/biz/shared/target/classes/META-INF/spring/biz-shared-service.xml
+  ├─go-common-dal [42 ms]
+  │   `---/Users/prakosoa/Documents/DANALearning/DANA-go/go/app/common/dal/target/classes/META-INF/spring/common-dal.xml
+  ├─go-biz-service-impl [56 ms]
+  │   `---/Users/prakosoa/Documents/DANALearning/DANA-go/go/app/biz/service-impl/target/classes/META-INF/spring/biz-service-impl.xml
+  └─go-core-service [106 ms]
+      `---/Users/prakosoa/Documents/DANALearning/DANA-go/go/app/core/service/target/classes/META-INF/spring/core-service-config.xml
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(4) >>>>>>> [totalTime = 246 ms, realTime = 149 ms]
+  ├─[Module] go-biz-shared [42 ms]
+  ├─[Module] go-common-dal [42 ms]
+  ├─[Module] go-biz-service-impl [56 ms]
+  └─[Module] go-core-service [106 ms]
+
+2021-03-16 14:46:28,007 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of manda-go-parent End +++++++++++++++++

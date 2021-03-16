@@ -46,3 +46,19 @@
 2021-03-16 13:22:59,321 INFO  main  - Thread pool with name 'sofa-boot-sofa-module-start' registered
 2021-03-16 13:22:59,465 INFO  sofa-module-start-1-thread-2 - Thread pool 'sofa-boot-sofa-module-start' stopped.
 2021-03-16 13:22:59,466 INFO  sofa-module-start-1-thread-2 - Thread pool with name 'sofa-boot-sofa-module-start' unregistered
+2021-03-16 14:41:30,048 INFO  main  - Thread pool 'sofa-boot-sofa-module-start' started with period: 30 SECONDS
+2021-03-16 14:41:30,048 INFO  main  - Thread pool with name 'sofa-boot-sofa-module-start' registered
+2021-03-16 14:41:30,198 INFO  sofa-module-start-1-thread-4 - Thread pool 'sofa-boot-sofa-module-start' stopped.
+2021-03-16 14:41:30,199 INFO  sofa-module-start-1-thread-4 - Thread pool with name 'sofa-boot-sofa-module-start' unregistered
+2021-03-16 14:41:55,865 INFO  main  - Thread pool 'sofa-boot-sofa-module-start' started with period: 30 SECONDS
+2021-03-16 14:41:55,865 INFO  main  - Thread pool with name 'sofa-boot-sofa-module-start' registered
+2021-03-16 14:41:56,013 INFO  sofa-module-start-1-thread-4 - Thread pool 'sofa-boot-sofa-module-start' stopped.
+2021-03-16 14:41:56,013 INFO  sofa-module-start-1-thread-4 - Thread pool with name 'sofa-boot-sofa-module-start' unregistered
+2021-03-16 14:45:06,490 INFO  main  - Thread pool 'sofa-boot-sofa-module-start' started with period: 30 SECONDS
+2021-03-16 14:45:06,491 INFO  main  - Thread pool with name 'sofa-boot-sofa-module-start' registered
+2021-03-16 14:45:06,679 INFO  sofa-module-start-1-thread-2 - Thread pool 'sofa-boot-sofa-module-start' stopped.
+2021-03-16 14:45:06,680 INFO  sofa-module-start-1-thread-2 - Thread pool with name 'sofa-boot-sofa-module-start' unregistered
+2021-03-16 14:46:27,852 INFO  main  - Thread pool 'sofa-boot-sofa-module-start' started with period: 30 SECONDS
+2021-03-16 14:46:27,852 INFO  main  - Thread pool with name 'sofa-boot-sofa-module-start' registered
+2021-03-16 14:46:28,006 INFO  sofa-module-start-1-thread-3 - Thread pool 'sofa-boot-sofa-module-start' stopped.
+2021-03-16 14:46:28,006 INFO  sofa-module-start-1-thread-3 - Thread pool with name 'sofa-boot-sofa-module-start' unregistered

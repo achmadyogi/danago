@@ -12,4 +12,9 @@
         <sofa:binding.jvm/>
     </sofa:service>
 
+    <bean class="com.manda.go.core.service.impl.MissionServiceImpl" id="missionService"/>
+    <sofa:service ref="missionService" interface="com.manda.go.core.service.MissionService">
+        <sofa:binding.jvm/>
+    </sofa:service>
+
 </beans>
