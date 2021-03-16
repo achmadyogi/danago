@@ -11,4 +11,8 @@
         <sofa:binding.jvm/>
     </sofa:reference>
 
+    <sofa:reference id="userServiceFacade" interface="com.manda.go.facade.UserServiceFacade">
+        <sofa:binding.jvm/>
+    </sofa:reference>
+
 </beans>

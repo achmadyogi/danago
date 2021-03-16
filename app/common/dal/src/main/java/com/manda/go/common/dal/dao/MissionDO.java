@@ -4,6 +4,7 @@
  */
 package com.manda.go.common.dal.dao;
 
+import java.math.BigInteger;
 import java.util.Date;
 
 /**
@@ -11,25 +12,25 @@ import java.util.Date;
  * @version $Id: MissionDO.java, v 0.1 2021‐03‐14 14.57 Achmad Yogi Prakoso Exp $$
  */
 public class MissionDO {
-    int id;
-    String productCode;
-    String title;
-    String description;
-    String category;
-    String serviceUrl;
-    int points;
-    int transactionQuantity;
-    int transactionMinAmount;
-    String level;
-    Date createdDate;
-    Date updatedDate;
+    private BigInteger id;
+    private String     productCode;
+    private String     title;
+    private String     description;
+    private String     category;
+    private String     serviceUrl;
+    private BigInteger points;
+    private int        transactionQuantity;
+    private BigInteger transactionMinAmount;
+    private String     level;
+    private Date       createdDate;
+    private Date       updatedDate;
 
     /**
      * Getter method for property id.
      *
      * @return property value of id
      */
-    public int getId() {
+    public BigInteger getId() {
         return id;
     }
 
@@ -38,7 +39,7 @@ public class MissionDO {
      *
      * @param id value to be assigned to property id
      */
-    public void setId(int id) {
+    public void setId(BigInteger id) {
         this.id = id;
     }
 
@@ -137,7 +138,7 @@ public class MissionDO {
      *
      * @return property value of points
      */
-    public int getPoints() {
+    public BigInteger getPoints() {
         return points;
     }
 
@@ -146,7 +147,7 @@ public class MissionDO {
      *
      * @param points value to be assigned to property points
      */
-    public void setPoints(int points) {
+    public void setPoints(BigInteger points) {
         this.points = points;
     }
 
@@ -173,7 +174,7 @@ public class MissionDO {
      *
      * @return property value of transactionMinAmount
      */
-    public int getTransactionMinAmount() {
+    public BigInteger getTransactionMinAmount() {
         return transactionMinAmount;
     }
 
@@ -182,7 +183,7 @@ public class MissionDO {
      *
      * @param transactionMinAmount value to be assigned to property transactionMinAmount
      */
-    public void setTransactionMinAmount(int transactionMinAmount) {
+    public void setTransactionMinAmount(BigInteger transactionMinAmount) {
         this.transactionMinAmount = transactionMinAmount;
     }
 

@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="go-common-service-facade" />
         <module name="go-biz-shared" />
         <module name="go-web" />
         <module name="go-test" />
         <module name="go-common-dal" />
         <module name="go-biz-service-impl" />
-        <module name="go-common-service-facade" />
+        <module name="go-core-model" />
+        <module name="go-core-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +21,8 @@
       <module name="go-biz-shared" target="1.7" />
       <module name="go-common-dal" target="1.7" />
       <module name="go-common-service-facade" target="1.7" />
+      <module name="go-core-model" target="1.7" />
+      <module name="go-core-service" target="6" />
       <module name="go-parent" target="1.7" />
       <module name="go-test" target="1.7" />
       <module name="go-web" target="1.7" />
@@ -30,6 +34,8 @@
       <module name="go-biz-shared" options="-parameters" />
       <module name="go-common-dal" options="-parameters" />
       <module name="go-common-service-facade" options="-parameters" />
+      <module name="go-core-model" options="-parameters" />
+      <module name="go-core-service" options="-parameters" />
       <module name="go-test" options="-parameters" />
       <module name="go-web" options="-parameters" />
     </option>

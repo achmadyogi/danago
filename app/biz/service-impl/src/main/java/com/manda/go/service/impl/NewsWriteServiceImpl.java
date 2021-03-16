@@ -16,7 +16,10 @@
  */
 package com.manda.go.service.impl;
 
+import java.math.BigInteger;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -37,8 +40,10 @@ public class NewsWriteServiceImpl implements NewsWriteService {
 
     @Override
     public String myNews() {
-        MissionDO missionDO = missionManageDAO.findById(1);
-        return "Yes, its me!" + missionDO.getProductCode();
+        List<BigInteger> list = new ArrayList<BigInteger>();
+        list.add(new BigInteger(String.valueOf(1)));
+        List<MissionDO> missionDO = missionManageDAO.findByListIds(list);
+        return "Yes, its me!" + missionDO.get(0).getProductCode();
     }
 
     @Override

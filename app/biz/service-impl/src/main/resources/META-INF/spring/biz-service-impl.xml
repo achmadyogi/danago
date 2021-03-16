@@ -12,9 +12,18 @@
         <sofa:binding.jvm/>
     </sofa:service>
 
+    <bean class="com.manda.go.service.impl.UserServiceFacadeImpl" id="userServiceFacade"/>
+    <sofa:service ref="userServiceFacade" interface="com.manda.go.facade.UserServiceFacade">
+        <sofa:binding.jvm/>
+    </sofa:service>
+
 <!--    <bean class="com.manda.go.service.impl.HelloWorldGoImpl" id="helloWorldGo"/>-->
 <!--    <sofa:service ref="helloWorldGo" interface="com.manda.go.facade.HelloWorldGo">-->
 <!--        <sofa:binding.bolt/>-->
 <!--    </sofa:service>-->
+
+    <sofa:reference id="userService" interface="com.manda.go.core.service.UserService">
+        <sofa:binding.jvm/>
+    </sofa:reference>
 
 </beans>

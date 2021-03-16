@@ -23,13 +23,16 @@ import java.util.Map;
 
 import javax.sql.DataSource;
 
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.web.bind.annotation.*;
 
 import com.alipay.sofa.runtime.api.annotation.SofaReference;
 import com.manda.go.facade.NewsReadService;
 import com.manda.go.facade.NewsWriteService;
+import com.manda.go.facade.UserServiceFacade;
+import com.manda.go.request.UserInquiryRequest;
+import com.manda.go.response.UserInquiryResult;
 
 /**
  * @author qilong.zql
@@ -37,6 +40,8 @@ import com.manda.go.facade.NewsWriteService;
  */
 @RestController
 public class SampleRestController {
+
+    private static final Logger LOGGER = LoggerFactory.getLogger(SampleRestController.class);
 
     @SofaReference
     private DataSource       dataSource;
@@ -46,6 +51,24 @@ public class SampleRestController {
 
     @SofaReference
     private NewsWriteService newWriteService;
+
+    @SofaReference
+    private UserServiceFacade   userServiceFacade;
+
+    @PostMapping("/danago/userInquiry")
+    @ResponseBody
+    public UserInquiryResult userInquiry(@RequestBody UserInquiryRequest userInquiryRequest) {
+        UserInquiryResult result;
+        try {
+            result = userServiceFacade.userInquiry(userInquiryRequest);
+        } catch (Exception e) {
+            // Create result
+            result = new UserInquiryResult();
+            result.setSuccess(false);
+            LOGGER.error(e.getMessage());
+        }
+        return result;
+    }
 
     /**
      * Create a news table
